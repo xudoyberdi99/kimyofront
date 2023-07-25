@@ -8,6 +8,7 @@
       <Services></Services>
       <Facultys></Facultys>
       <ActivStudents></ActivStudents>
+      <Partners></Partners>
   </div>
 </template>
 
@@ -20,6 +21,7 @@ import  Notifications from '@/components/Notification.vue'
 import Services from '@/components/Services.vue'
 import Facultys from '@/components/Facultys.vue'
 import  ActivStudents from '@/components/ActivStudents.vue'
+import Partners from "@/components/Partners.vue";
 export default {
   name: 'HomeView',
   components: {
@@ -30,7 +32,8 @@ export default {
       Notifications,
       Services,
       Facultys,
-      ActivStudents
+      ActivStudents,
+      Partners
   }
 }
 </script>
