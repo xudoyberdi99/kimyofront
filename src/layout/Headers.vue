@@ -1,13 +1,13 @@
 <template>
-    <div class="footer-menu">
+    <div class="header-menu container">
           <div class="address-style">
-              <i class="el-icon-map-location">Amir temur ko'chasi 103-uy</i>
+              <i class="fa-solid fa-map"></i><span> Amir temur ko'chasi 103-uy</span>
               <i class="fa fa-envelope iconssty" aria-hidden="true"></i>
-              <span class="ndnd">test@gmail.com</span>
-              <i class="el-icon-phone">(998)939044444</i>
+              <span> test@gmail.com</span>
+              <i class="el-icon-phone"> (998)939044444</i>
         </div>
-        <div>
-                <i class="fa fa-language fa-2x" aria-hidden="true"></i>
+        <div >
+           <span class="langu-menu"> <i class="fa fa-language fa-2x lan-icon" aria-hidden="true"></i></span>
             <el-select v-model="value" placeholder="Select">
                 <el-option
                         v-for="item in options"
@@ -27,24 +27,25 @@ name:'Headers',
         return {
             options: [{
                 value: 'Option1',
-                label: 'Option1'
+                label: 'English'
             }, {
                 value: 'Option2',
-                label: 'Option2'
+                label: 'Uzbek'
             }, {
                 value: 'Option3',
-                label: 'Option3'
+                label: 'Russian'
             }],
-            value: ''
+            value: 'Uzbek'
         }
     }
 }
 </script>
 
 <style scoped>
-.footer-menu{
+.header-menu{
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
 }
 .iconssty {
     margin-right: 5px;
@@ -53,5 +54,12 @@ name:'Headers',
 .el-icon-phone {
     margin-left: 15px;
 }
-
+.langu-menu {
+    position: absolute;
+}
+.lan-icon{
+    position: relative;
+    top: 10px;
+    left: -50px;
+}
 </style>

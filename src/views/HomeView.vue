@@ -1,18 +1,36 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="container">
+      <NewsDay></NewsDay>
+      <InteractiveService></InteractiveService>
+      <AboutInstitut></AboutInstitut>
+      <LastNews></LastNews>
+      <Notifications></Notifications>
+      <Services></Services>
+      <Facultys></Facultys>
+      <ActivStudents></ActivStudents>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import NewsDay from '@/components/NewsDay.vue'
+import InteractiveService from '@/components/InteractiveServices.vue'
+import  AboutInstitut from '@/components/AboutInstituti.vue'
+import LastNews from '@/components/LastNews.vue'
+import  Notifications from '@/components/Notification.vue'
+import Services from '@/components/Services.vue'
+import Facultys from '@/components/Facultys.vue'
+import  ActivStudents from '@/components/ActivStudents.vue'
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld
+      NewsDay,
+      InteractiveService,
+      AboutInstitut,
+      LastNews,
+      Notifications,
+      Services,
+      Facultys,
+      ActivStudents
   }
 }
 </script>
