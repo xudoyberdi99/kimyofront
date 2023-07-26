@@ -1,9 +1,11 @@
 <template>
   <div class="container mb-5">
       <div class="row">
-          <div class="title mb-5 mt-5">
-              <h3 class="fw-bold">Fakultetlar</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci, beatae delectus ea itaque, nobis non, omnis pariatur perspiciatis placeat quaerat quos rerum saepe unde.</p>
+          <div class="col-md-12">
+              <div class="title mb-5 mt-5">
+                 <h3 class="fw-bold">Faol Talabalar</h3>
+                 <p>Lorem ipsum dolor sit  consectetur adipisicing elit. Ab adipisci, beatae delectus ea itaque, nobis non, omnis pariatur perspiciatis placeat quaerat quos rerum saepe.</p>
+              </div>
           </div>
       </div>
   <div class="row">
