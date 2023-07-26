@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container p-0">
       <NewsDay></NewsDay>
       <InteractiveService></InteractiveService>
       <AboutInstitut></AboutInstitut>
@@ -13,15 +13,15 @@
 </template>
 
 <script>
-import NewsDay from '@/components/NewsDay.vue'
-import InteractiveService from '@/components/InteractiveServices.vue'
-import  AboutInstitut from '@/components/AboutInstituti.vue'
-import LastNews from '@/components/LastNews.vue'
-import  Notifications from '@/components/Notification.vue'
-import Services from '@/components/Services.vue'
-import Facultys from '@/components/Facultys.vue'
-import  ActivStudents from '@/components/ActivStudents.vue'
-import Partners from "@/components/Partners.vue";
+import NewsDay from '@/components/main/NewsDay.vue'
+import InteractiveService from '@/components/main/InteractiveServices.vue'
+import  AboutInstitut from '@/components/main/AboutInstituti.vue'
+import LastNews from '@/components/main/LastNews.vue'
+import  Notifications from '@/components/main/Notification.vue'
+import Services from '@/components/main/Services.vue'
+import Facultys from '@/components/main/Facultys.vue'
+import  ActivStudents from '@/components/main/ActivStudents.vue'
+import Partners from "@/components/main/Partners.vue";
 export default {
   name: 'HomeView',
   components: {

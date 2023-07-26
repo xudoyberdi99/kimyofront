@@ -8,7 +8,7 @@
                 </p>
           </div>
           <div class="col-md-6">
-              <img src="../assets/Screenshot_1.png" alt="kun rasmi" class="images">
+              <img src="../../assets/Screenshot_1.png" alt="kun rasmi" class="images">
           </div>
       </div>
 

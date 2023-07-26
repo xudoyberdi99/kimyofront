@@ -21,7 +21,7 @@
                                   <el-card class="card-item">
 <!--                                      <img src="../assets/11.jpg" class="image">-->
                                       <video width = "1200" height = "200" controls>
-                                          <source src = "../assets/vedio2.mp4" type = "video/mp4">
+                                          <source src = "../../assets/vedio2.mp4" type = "video/mp4">
                                       </video>
                                   </el-card>
                               </div>
@@ -32,7 +32,7 @@
                           <div class="row">
                               <div class="col-12">
                                   <el-card class="card-item">
-                                      <img src="../assets/22.jpg" class="image">
+                                      <img src="../../assets/22.jpg" class="image">
                                   </el-card>
                               </div>
                           </div>
@@ -42,7 +42,7 @@
                           <div class="row">
                               <div class="col-12">
                                   <el-card class="card-item">
-                                      <img src="../assets/33.jpg" class="image">
+                                      <img src="../../assets/33.jpg" class="image">
                                   </el-card>
                               </div>
                           </div>

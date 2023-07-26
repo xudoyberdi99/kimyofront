@@ -12,13 +12,76 @@
                 </div>
                 <div class="col-md-8 p-0">
                     <div class="d-flex justify-content-end mt-3">
-                        <ul class="nav menu-nav">
-                            <li class=" nav-item active"><RouterLink class="nav-link" :to="{name:'home'}">Institut tuzilmasi</RouterLink></li>
-                            <li class=" nav-item "><RouterLink class="nav-link" :to="{name:'about'}">Tuzilma</RouterLink></li>
-                            <li class=" nav-item "><RouterLink class="nav-link" :to="{name:'about'}">Faoliyat</RouterLink></li>
-                            <li class=" nav-item "><RouterLink class="nav-link" :to="{name:'about'}">Talaba</RouterLink></li>
-                            <li class=" nav-item "><RouterLink class="nav-link" :to="{name:'about'}">Abiturient</RouterLink></li>
-                        </ul>
+<!--                        <ul class="nav menu-nav">-->
+<!--                            <li class="nav-item active"><RouterLink class="nav-link" :to="{name:'home'}">Bosh sahifa</RouterLink></li>-->
+<!--                            <li class="nav-item dropdown"><RouterLink class="nav-link" :to="{name:'home'}">-->
+<!--                              <a class="dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">-->
+<!--                                Institut tuzilmasi-->
+<!--                              </a>-->
+<!--                              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">-->
+<!--                                <li><a class="dropdown-item" href="#">Institut haqida</a></li>-->
+<!--                                <li><a class="dropdown-item" href="#">Matbuot bo’limi</a></li>-->
+<!--                                <li><a class="dropdown-item" href="#">Institut kengashi</a></li>-->
+<!--                                <li><a class="dropdown-item" href="#">Kuzatuv kengashi</a></li>-->
+<!--                                <li><a class="dropdown-item" href="#">Ilmiy jurnallar</a></li>-->
+<!--                                <li><a class="dropdown-item" href="#">Me'yoriy hujjatlar</a></li>-->
+<!--                              </ul>-->
+<!--                            </RouterLink></li>-->
+<!--                            <li class=" nav-item "><RouterLink class="nav-link" :to="{name:'about'}">Tuzilma</RouterLink></li>-->
+<!--                            <li class=" nav-item "><RouterLink class="nav-link" :to="{name:'about'}">Faoliyat</RouterLink></li>-->
+<!--                            <li class=" nav-item "><RouterLink class="nav-link" :to="{name:'about'}">Talaba</RouterLink></li>-->
+<!--                            <li class=" nav-item "><RouterLink class="nav-link" :to="{name:'about'}">Abiturient</RouterLink></li>-->
+<!--                        </ul>-->
+                      <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
+                      <el-menu-item index="1">Bosh sahifa</el-menu-item>
+                        <el-submenu index="2">
+                        <template slot="title">Institut tuzilmasi</template>
+                        <el-submenu index="2-1">
+                          <template slot="title">Institut haqida</template>
+                          <el-menu-item index="2-1-1">Umumiy ma’lumot</el-menu-item>
+                          <el-menu-item index="2-1-2">Institut nizomi</el-menu-item>
+                          <el-menu-item index="2-1-3">Institut sertifikatlari</el-menu-item>
+                          <el-menu-item index="2-1-4">Ichki tartib qoidalar</el-menu-item>
+                          <el-menu-item index="2-1-5">O’quv binolari</el-menu-item>
+                          <el-menu-item index="2-1-6">Muzey</el-menu-item>
+                          <el-menu-item index="2-1-7">Talabalar turar joylari</el-menu-item>
+                        </el-submenu>
+                        <el-submenu index="2-2">
+                          <template slot="title">Matbuot bo’limi</template>
+                          <el-menu-item index="2-2-1">Yangiliklar</el-menu-item>
+                          <el-menu-item index="2-2-2">E’lonlar</el-menu-item>
+                          <el-menu-item index="2-2-4">Fotogalereya</el-menu-item>
+                          <el-menu-item index="2-2-5">Videogalereya</el-menu-item>
+                        </el-submenu>
+                        <el-submenu index="2-3">
+                          <template slot="title">Institut kengashi</template>
+                          <el-menu-item index="2-3-1">Ilmiy kengash to'g'risida nizom</el-menu-item>
+                          <el-menu-item index="2-3-2">Ilmiy kengash tarkibi</el-menu-item>
+                          <el-menu-item index="2-3-4">Ilmiy kengash kun tartibi</el-menu-item>
+                          <el-menu-item index="2-3-5">Ilmiy kengash tarqatma materiallari</el-menu-item>
+                          <el-menu-item index="2-3-6">Ilmiy kengash qarorlari</el-menu-item>
+                        </el-submenu>
+
+                        <el-submenu index="2-4">
+                          <template slot="title">Institut kengashi</template>
+                          <el-menu-item index="2-4-1">Ilmiy kengash to'g'risida nizom</el-menu-item>
+                          <el-menu-item index="2-4-2">Ilmiy kengash tarkibi</el-menu-item>
+                          <el-menu-item index="2-4-4">Ilmiy kengash kun tartibi</el-menu-item>
+                          <el-menu-item index="2-4-5">Ilmiy kengash tarqatma materiallari</el-menu-item>
+                          <el-menu-item index="2-4-6">Ilmiy kengash qarorlari</el-menu-item>
+                        </el-submenu>
+                        <el-submenu index="2-5">
+                          <template slot="title">Kuzatuv kengashi</template>
+                          <el-menu-item index="2-5-1">Kuzatuv kengashi nizomi</el-menu-item>
+                          <el-menu-item index="2-5-2">Kuzatuv kengashi tarkibi</el-menu-item>
+                          <el-menu-item index="2-5-4">Kuzatuv kengashi kun tartibi</el-menu-item>
+                          <el-menu-item index="2-5-5">Kuzatuv kengashi tarqatma materiallari</el-menu-item>
+                          <el-menu-item index="2-5-6">Kuzatuv kengashi qarorlari</el-menu-item>
+                        </el-submenu>
+                      </el-submenu>
+                        <el-menu-item index="3">AboutUs</el-menu-item>
+                      </el-menu>
+
                     </div>
                 </div>
             </div>
@@ -29,25 +92,16 @@
 <script>
 export default {
     data() {
-        return {
-            visible: false
-        }
+      return {
+        activeIndex: '1',
+        activeIndex2: '1'
+      };
     },
-    methods: {
-        Home(){
-            return this.$router.push('/')
-        },
-        handleScroll (event){
-            this.visible = window.scrollY > 250 ? true : false
-        },
-
-    },
-    created () {
-        window.addEventListener('scroll', this.handleScroll);
-    },
-    destroyed () {
-        window.removeEventListener('scroll', this.handleScroll);
-    },
+  methods: {
+    handleSelect(key, keyPath) {
+      console.log(key, keyPath);
+    }
+  }
 }
 </script>
 

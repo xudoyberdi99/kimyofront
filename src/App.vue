@@ -6,7 +6,7 @@
           </el-header>
               <Sitenav></Sitenav>
           <el-main>
-            <HomeView></HomeView>
+            <RouterView></RouterView>
           </el-main>
           <el-footer>
               <Footers></Footers>
