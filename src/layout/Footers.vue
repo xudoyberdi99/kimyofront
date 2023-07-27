@@ -16,7 +16,7 @@
                             <li class="list-inline-item">
                                 <a
                                     class="btn btn-primary btn-lg btn-floating"
-                                    style="background-color: #ac2bac;border-radius: 50%;"
+                                    style="background-color: #198754;border-radius: 50%;"
                                     href="#!"
                                     role="button"
                                 ><i class="fab fa-facebook"></i
@@ -25,7 +25,7 @@
                             <li class="list-inline-item">
                                 <a
                                     class="btn btn-primary btn-lg btn-floating"
-                                    style="background-color: #ac2bac;border-radius: 50%;"
+                                    style="background-color: #198754;border-radius: 50%;"
                                     href="#!"
                                     role="button"
                                 ><i class="fab fa-telegram"></i
@@ -34,12 +34,21 @@
                             <li class="list-inline-item">
                                 <a
                                     class="btn btn-primary btn-lg btn-floating"
-                                    style="background-color: #ac2bac; border-radius: 50%;"
+                                    style="background-color: #198754; border-radius: 50%;"
                                     href="#!"
                                     role="button"
                                 ><i class="fab fa-instagram"></i
                                 ></a>
                             </li>
+                          <li class="list-inline-item">
+                            <a
+                                class="btn btn-primary btn-lg btn-floating"
+                                style="background-color: #198754; border-radius: 50%;"
+                                href="#!"
+                                role="button"
+                            ><i class="fab fa-twitter"></i
+                            ></a>
+                          </li>
                         </ul>
                     </div>
                 </div>
@@ -54,17 +63,17 @@
                                 <p>100,200,43,44,45,56,78,89</p>
                             </li>
                             <li>
-                                <div style="position:relative;overflow:hidden; border-radius: 15px;">
+                                <div style="position:relative;overflow:hidden; border-radius: 10px;">
                                     <a href="https://yandex.uz/maps/10335/tashkent/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Toshkent</a>
                                     <a href="https://yandex.uz/maps/geo/1543141251/?ll=69.273915%2C41.298152&rl=69.291834%2C41.340352&utm_medium=mapframe&utm_source=maps&z=15.4" style="color:#eee;font-size:12px;position:absolute;top:14px;">Oybek metro bekati — Yandex Xarita</a>
-                                    <iframe src="https://yandex.uz/map-widget/v1/?ll=69.273915%2C41.298152&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxNTQzMTQxMjUxEkRPyrt6YmVraXN0b24sIFRvc2hrZW50LCBPyrt6YmVraXN0b24geW%2FKu25hbGlzaGksIE95YmVrIG1ldHJvIGJla2F0aSIKDT6MikIVTjElQg%3D%3D&rl=69.291834%2C41.340352&z=15.4" width="600" height="220" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+                                    <iframe src="https://yandex.uz/map-widget/v1/?ll=69.273915%2C41.298152&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxNTQzMTQxMjUxEkRPyrt6YmVraXN0b24sIFRvc2hrZW50LCBPyrt6YmVraXN0b24geW%2FKu25hbGlzaGksIE95YmVrIG1ldHJvIGJla2F0aSIKDT6MikIVTjElQg%3D%3D&rl=69.291834%2C41.340352&z=15.4" width="600" height="223" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
                                 </div>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <p class="fw-bold fs-4">Murojaat</p>
+                    <p class="fw-bold fs-3">Murojaat</p>
                     <div class="input-group  mb-3 mt-4">
                         <input type="text" class="form-control mt-2" placeholder="F.I.SH" aria-label="Username" aria-describedby="basic-addon1">
                     </div>
@@ -77,11 +86,12 @@
                     <button type="button" class="btn btn-success mt-4">Xabar Yuborish</button>
                 </div>
             </div>
-        </div>
-        <button class="btn btn-primary btn-lg btn-floating-top"
-                type="text" @click="backToTop">
+          <button class="btn btn-primary btn-lg btn-floating-top"
+                  type="text" @click="backToTop">
             <i class="fas fa-arrow-up"></i>
-        </button>
+          </button>
+        </div>
+
     </footer>
 </template>
 
@@ -101,7 +111,7 @@ export default {
 
 </script>
 
-<style>
+<style scoped>
  .footer1{
      background-color: rgb(0,33,71);
      color:#ccc;
