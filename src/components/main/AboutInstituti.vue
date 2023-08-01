@@ -7,8 +7,8 @@
                   nobis odit quam sapiente totam.
               Lorem ipsum dolor sit amet.</p>
                   <button style="background-color: #FDC800;
-                  color: black; width: 100px; border-radius: 5px;
-                  border:none;margin-top: 10px;" class="btn btn-success fw-bold">Batafsil</button>
+                  color: black; width: 150px; border-radius: 5px;
+                  border:none;margin-top: 10px; padding: 12px 20px;" class="btn btn-success fw-bold">Batafsil</button>
           </div>
       </div>
       <div class="row">

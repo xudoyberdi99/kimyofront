@@ -75,7 +75,9 @@
                    <hr>
                </div>
                 <div class="text-center mt-4">
-                    <button class="btn buttons">Batafsil</button>
+                    <button style="background-color: #FDC800;
+                  color: black; width: 150px; border-radius: 5px;
+                  border:none;margin-top: 10px; padding: 12px 20px;" class="btn btn-success fw-bold">Batafsil</button>
                 </div>
 
             </div>
@@ -190,7 +192,9 @@
                     </div>
                 </div>
                 <div class="text-center mt-4">
-                    <button class="btn buttons">Batafsil</button>
+                    <button style="background-color: #FDC800;
+                  color: black; width: 150px; border-radius: 5px;
+                  border:none;margin-top: 10px; padding: 12px 20px;" class="btn btn-success fw-bold">Batafsil</button>
                 </div>
             </div>
         </div>
