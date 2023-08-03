@@ -6,12 +6,13 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A culpa id neque officiis perspiciatis,
                   quasi suscipit tempora tenetur. Autem dicta incidunt sapiente similique voluptate. Cupiditate deleniti
               </p>
-              <button style="background-color: #FDC800;
+
+              <button @click="$router.push('newsday')" style="background-color: #FDC800;
                   color: black; width: 150px; border-radius: 5px;
                   border:none;margin-top: 10px; padding: 12px 20px;" class="btn btn-success fw-bold">Batafsil</button>
           </div>
           <div class="col-md-6">
-              <img src="../../assets/Screenshot_1.png" alt="kun rasmi" class="images">
+              <img src="@/assets/istockphoto-1366724877-612x612.jpg" alt="kun rasmi" class="images">
           </div>
       </div>
 
@@ -24,5 +25,6 @@
 .images {
     width: 100%;
     display: block;
+    border-radius: 20px;
 }
 </style>

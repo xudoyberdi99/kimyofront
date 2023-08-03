@@ -5,7 +5,7 @@
               <h4 class="fw-bold">Bizning interaktiv xizmatlardan foydalaning</h4>
               <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam distinctio dolores eum neque nihil numquam sed sit suscipit tenetur voluptatibus.</p>
               <div style="width: 180px;">
-                  <button style="background-color: #FDC800; color: black; border-radius: 5px; border:none;margin-top: 10px; padding: 10px;" class="btn btn-success">Barcha Xizmatlar</button>
+                  <button @click="$router.push('services')" style="background-color: #FDC800; color: black; border-radius: 5px; border:none;margin-top: 10px; padding: 10px;" class="btn btn-success">Barcha Xizmatlar</button>
               </div>
 
           </div>
