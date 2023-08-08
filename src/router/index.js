@@ -6,6 +6,7 @@ import NewsDayView from "@/views/NewsDayView.vue";
 import InteractiveServiceView from "@/views/InteractiveServiceView.vue";
 import LastNewsView from "@/views/LastNewsView.vue";
 import AnnouncementView from "@/views/AnnouncementView.vue";
+import ConferencesView from "@/views/ConferencesView.vue";
 
 Vue.use(VueRouter)
 
@@ -39,6 +40,11 @@ const routes = [
         path: '/announcementView',
         name: 'announcementView',
         component: AnnouncementView
+    },
+    {
+        path: '/confrences',
+        name: 'confrences',
+        component: ConferencesView
     },
 
 ]
