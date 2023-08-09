@@ -11,48 +11,57 @@
       <div class="col-12">
         <div class="row">
           <div class="col-3">
-            <el-card class="card-item" :body-style="{ padding: '0px' }">
-              <img src="https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
-                   class="image">
-              <div style="padding: 14px;">
-                <h5>Ism Familya</h5>
-                <p>siz doim etiborimizdasiz aziz bolajonlar</p>
-              </div>
-            </el-card>
+            <a href="#" style="text-decoration: none; color: black;">
+              <el-card class="card-item" :body-style="{ padding: '0px' }">
+                <img src="@/assets/depositphotos_51462919-stock-photo-happy-young-man-traveling-with.jpg"
+                     class="image">
+                <div style="padding: 14px;">
+                  <h5>Ism Familya</h5>
+                  <p>siz doim etiborimizdasiz aziz bolajonlar</p>
+                </div>
+              </el-card>
+            </a>
           </div>
           <div class="col-3">
-            <el-card class="card-item" :body-style="{ padding: '0px' }">
-              <img src="https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
-                   class="image">
-              <div style="padding: 14px;">
-                <h5>Ism Familya</h5>
-                <p>siz doim etiborimizdasiz aziz bolajonlar</p>
-              </div>
-            </el-card>
+            <a href="#" style="text-decoration: none; color: black;">
+              <el-card class="card-item" :body-style="{ padding: '0px' }">
+                <img src="@/assets/depositphotos_122104490-stock-photo-smiing-female-college-student.jpg"
+                     class="image">
+                <div style="padding: 14px;">
+                  <h5>Ism Familya</h5>
+                  <p>siz doim etiborimizdasiz aziz bolajonlar</p>
+                </div>
+              </el-card>
+            </a>
           </div>
           <div class="col-3">
-            <el-card class="card-item" :body-style="{ padding: '0px' }">
-              <img src="https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
-                   class="image">
-              <div style="padding: 14px;">
-                <h5>Ism Familya</h5>
-                <p>siz doim etiborimizdasiz aziz bolajonlar</p>
-              </div>
-            </el-card>
+            <a href="#" style="text-decoration: none; color: black;">
+              <el-card class="card-item" :body-style="{ padding: '0px' }">
+                <img src="@/assets/depositphotos_63745245-stock-photo-cute-student-girl-taking-notes.jpg"
+                     class="image">
+                <div style="padding: 14px;">
+                  <h5>Ism Familya</h5>
+                  <p>siz doim etiborimizdasiz aziz bolajonlar</p>
+                </div>
+              </el-card>
+            </a>
           </div>
           <div class="col-3">
-            <el-card class="card-item" :body-style="{ padding: '0px' }">
-              <img src="https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
-                   class="image">
-              <div style="padding: 14px;">
-                <h5>Ism Familya</h5>
-                <p>siz doim etiborimizdasiz aziz bolajonlar</p>
-              </div>
-            </el-card>
+            <a href="#" style="text-decoration: none; color: black;">
+              <el-card class="card-item" :body-style="{ padding: '0px' }">
+                <img src="@/assets/depositphotos_148586571-stock-photo-student-holding-copybooks.jpg"
+                     class="image">
+                <div style="padding: 14px;">
+                  <h5>Ism Familya</h5>
+                  <p>siz doim etiborimizdasiz aziz bolajonlar</p>
+                </div>
+              </el-card>
+            </a>
           </div>
+
         </div>
-        <div class="text-center mt-4">
-          <button @click="$router.push('confrences')" style="background-color: #FDC800;
+        <div class="text-center mt-4 mb-5">
+          <button @click="$router.push('activeStudents')" style="background-color: #FDC800;
                   color: black; width: 150px; border-radius: 5px;
                   border:none;margin-top: 10px; padding: 12px 20px;" class="btn btn-success fw-bold">Barchasi
           </button>

@@ -1,55 +1,8 @@
 <template>
-  <div class="container-fluid statistics pb-5" style="background-color: #002147;">
-    <!--       style="background-image: url('https://tsue.uz/media/statistic/Frame_19853.jpg');"-->
+  <div class="container-fluid statistics" style="background-color: #002147;">
 
     <div class="container">
       <div class="row">
-        <div class="col-12 text-center position-relative">
-          <!--          <div class="animation-play">-->
-          <!--            <svg-->
-          <!--                width="102"-->
-          <!--                height="102"-->
-          <!--                viewBox="0 0 102 102"-->
-          <!--                fill="none"-->
-          <!--                xmlns="http://www.w3.org/2000/svg"-->
-          <!--                class="animate-play"-->
-          <!--            >-->
-          <!--              <rect-->
-          <!--                  width="102"-->
-          <!--                  height="102"-->
-          <!--                  rx="51"-->
-          <!--                  fill="white"-->
-          <!--              ></rect>-->
-          <!--              <path-->
-          <!--                  d="M39.9727 32.8094C39.9727 31.187 41.8026 30.2397 43.1273 31.1764L68.051 48.7992C69.1599 49.5833 69.1816 51.221 68.0937 52.0341L43.1701 70.6639C41.8512 71.6498 39.9727 70.7086 39.9727 69.062V32.8094Z"-->
-          <!--                  fill="#024DA5"-->
-          <!--              ></path>-->
-          <!--            </svg>-->
-          <!--            <span class="animate-2nd"></span>-->
-          <!--            <span class="animate-1st"></span>-->
-          <!--          </div>-->
-
-          <div>
-            <div class="cirle-anim"></div>
-            <button @click="change" class="play-button">
-              <i class="fas fa-play"></i>
-            </button>
-            <div v-if="visible" class="vedio1">
-              <div>
-                <iframe width="600" height="400" src="https://www.youtube.com/embed/iYWpNexfFXI?autoplay=1&mute=0"
-                        title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen>
-                </iframe>
-              </div>
-              <button @click="visible=!visible" class="delete-play">
-                <i class="fas fa-delete-left fa-2x text-success"></i>
-              </button>
-            </div>
-          </div>
-          <!---->
-        </div>
         <div class="col-12 text-center inner">
           <div class="d-flex justify-content-center">
             <div></div>
@@ -87,7 +40,7 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container pb-5">
       <div class="row">
         <div class="col-12 col-md-4 col-lg-3">
           <div class="numbers">
@@ -212,113 +165,23 @@
 <script>
 export default {
   data() {
-    return {
-      visible: false,
-    }
+    return {}
   },
-  methods: {
-    change() {
-      this.visible = true
-    },
-  },
+  methods: {},
 }
 </script>
 
 <style scoped>
 
-.cirle-anim {
-  position: absolute;
-  background-color: white;
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  border: none;
-  right: 646px;
-  bottom: -45px;
-  animation-name: animat;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  transition: 0.3s all ease-in-out;
-}
-
-.vedio1 {
-  position: relative;
-  z-index: 1111;
-}
-
-.delete-play {
-  position: absolute;
-  top: 0;
-  right: -400px;
-  top: -30px;
-}
-
-.play-button {
-  position: absolute;
-  background-color: white;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  border: none;
-  right: 650px;
-  bottom: -40px;
-}
-
 .statistics {
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 200px;
   margin-top: 20px;
 }
 
-@keyframes animat {
-  from {
-    transform: scale(.5, .5);
-    opacity: 1;
-  }
-  to {
-    transform: scale(1.5);
-    opacity: 0.1;
-  }
-}
-
-.animate-2nd {
-  background: hsla(0, 0%, 100%, 0.41);
-  width: 158px;
-  height: 158px;
-  margin-left: -81px;
-  top: -27px;
-  z-index: 3;
-}
-
-.animate-2nd {
-  border-radius: 50%;
-  position: absolute;
-  left: 50%;
-  -webkit-animation: pulse 2s infinite;
-  animation: pulse 2s infinite;
-}
-
-.animate-1st {
-  border-radius: 50%;
-  position: absolute;
-  left: 50%;
-  -webkit-animation: pulse 2s infinite;
-  animation: pulse 2s infinite;
-}
-
-.animate-2nd {
-  border-radius: 50%;
-  position: absolute;
-  left: 50%;
-  -webkit-animation: pulse 2s infinite;
-  animation: pulse 2s infinite;
-}
-
 .statistics .inner .univ-title {
-  padding-top: 148px;
+  padding-top: 80px;
 }
 
 .statistics .inner .univ-title h1 {
@@ -339,7 +202,6 @@ export default {
   line-height: 24px;
   text-align: center;
   color: #fff;
-//margin-bottom: 64px;
 }
 
 .statistics .numbers {

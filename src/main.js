@@ -11,7 +11,9 @@ Vue.use(element)
 Vue.use(VueCarousel)
 
 new Vue({
-  router,
-  store,
-  render: function (h) { return h(App) }
+    router,
+    store,
+    render: function (h) {
+        return h(App)
+    }
 }).$mount('#app')

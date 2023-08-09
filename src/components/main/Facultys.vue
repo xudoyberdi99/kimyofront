@@ -22,6 +22,7 @@
         </ul>
         <a class="links" href="#">Kirish <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
       </div>
+
       <div class="col-md-4 groups-item">
         <i class="fa-solid fa-percent fa-2x"></i>
         <h5 class="fw-bold mt-3">Soliq va sugurta fakultetiti</h5>
@@ -116,10 +117,9 @@
         </ul>
         <a class="links" href="#">Kirish <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
       </div>
-
     </div>
     <div class="text-center mt-4">
-      <button @click="$router.push('confrences')" style="background-color: #FDC800;
+      <button @click="$router.push('allFacultys')" style="background-color: #FDC800;
                   color: black; width: 150px; border-radius: 5px;
                   border:none;margin-top: 10px; padding: 12px 20px;" class="btn btn-success fw-bold">Barchasi
       </button>

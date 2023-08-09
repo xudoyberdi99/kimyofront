@@ -7,6 +7,8 @@ import InteractiveServiceView from "@/views/InteractiveServiceView.vue";
 import LastNewsView from "@/views/LastNewsView.vue";
 import AnnouncementView from "@/views/AnnouncementView.vue";
 import ConferencesView from "@/views/ConferencesView.vue";
+import FacultysView from "@/views/FacultysView.vue";
+import ActiveStudentsView from "@/views/ActiveStudentsView.vue";
 
 Vue.use(VueRouter)
 
@@ -46,11 +48,25 @@ const routes = [
         name: 'confrences',
         component: ConferencesView
     },
+    {
+        path: '/allFacultys',
+        name: 'allFacultys',
+        component: FacultysView
+    },
+    {
+        path: '/activeStudents',
+        name: 'activeStudents',
+        component: ActiveStudentsView
+    },
 
 ]
 
 const router = new VueRouter({
-    routes
+    mode: 'history',
+    scrollBehavior(to, from, savedPosition) {
+        return {x: 0, y: 0};
+    },
+    routes,
 })
 
 export default router
