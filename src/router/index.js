@@ -9,6 +9,7 @@ import AnnouncementView from "@/views/AnnouncementView.vue";
 import ConferencesView from "@/views/ConferencesView.vue";
 import FacultysView from "@/views/FacultysView.vue";
 import ActiveStudentsView from "@/views/ActiveStudentsView.vue";
+import NewsDetailView from "@/views/NewsDetailView.vue";
 
 Vue.use(VueRouter)
 
@@ -28,6 +29,7 @@ const routes = [
         name: 'newsday',
         component: NewsDayView
     },
+
     {
         path: '/services',
         name: 'services',
@@ -37,6 +39,11 @@ const routes = [
         path: '/lastnews',
         name: 'lastnews',
         component: LastNewsView
+    },
+    {
+        path: '/news-detail/:id',
+        name: 'news-detail',
+        component: NewsDetailView
     },
     {
         path: '/announcementView',

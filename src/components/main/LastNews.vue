@@ -20,7 +20,7 @@
                 <p class="fw-bold">siz doim etiborimizdasiz aziz bolajonlar</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, dolorum!</p>
                 <div class="bottom clearfix">
-                  <button class="buttons">To'liq o'qish <span class="time"><i class="fa fa-arrow-right fa-sm"
+                  <button @click="$router.push('news-detail/1')" class="buttons">To'liq o'qish <span class="time"><i class="fa fa-arrow-right fa-sm"
                                                                               aria-hidden="true"></i></span></button>
                   <div class="px-2">
                     <i class="fas fa-share"></i>
@@ -42,7 +42,7 @@
                 <p class="fw-bold">siz doim etiborimizdasiz aziz bolajonlar</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, dolorum!</p>
                 <div class="bottom clearfix">
-                  <button class="buttons">To'liq o'qish <span class="time"><i class="fa fa-arrow-right fa-sm"
+                  <button @click="$router.push('news-detail/1')" class="buttons">To'liq o'qish <span class="time"><i class="fa fa-arrow-right fa-sm"
                                                                               aria-hidden="true"></i></span></button>
                   <div class="px-2">
                     <i class="fas fa-share"></i>
@@ -63,7 +63,7 @@
                 <p class="fw-bold">siz doim etiborimizdasiz aziz bolajonlar</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, dolorum!</p>
                 <div class="bottom clearfix">
-                  <button class="buttons">To'liq o'qish <span class="time"><i class="fa fa-arrow-right fa-sm"
+                  <button @click="$router.push('news-detail/1')" class="buttons">To'liq o'qish <span class="time"><i class="fa fa-arrow-right fa-sm"
                                                                               aria-hidden="true"></i></span></button>
                   <div class="px-2">
                     <i class="fas fa-share"></i>
@@ -85,7 +85,7 @@
                 <p class="fw-bold">siz doim etiborimizdasiz aziz bolajonlar</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, dolorum!</p>
                 <div class="bottom clearfix">
-                  <button class="buttons">To'liq o'qish <span class="time"><i class="fa fa-arrow-right fa-sm"
+                  <button @click="$router.push('news-detail/1')" class="buttons">To'liq o'qish <span class="time"><i class="fa fa-arrow-right fa-sm"
                                                                               aria-hidden="true"></i></span></button>
                   <div class="px-2">
                     <i class="fas fa-share"></i>
