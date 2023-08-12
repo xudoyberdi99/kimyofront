@@ -7,49 +7,57 @@
           <i class="fa fa-user fa-2x" aria-hidden="true"></i>
           <p class="title">HEMIS-O'qituvchi</p>
           <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, porro!</p>
-          <a class="links" href="#">Kirish <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
+          <a class="links" href="https://hemis.tfi.uz/dashboard/login" target="_blank">Kirish <span><i
+              class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
         </div>
         <div class="col-md-4 groups-item mb-5">
           <i class="fa-solid fa-user-graduate fa-2x"></i>
           <p class="title">HEMIS-Talaba</p>
           <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, porro!</p>
-          <a class="links" href="#">Kirish <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
+          <a class="links" href="https://hemis.tfi.uz/dashboard/login" target="_blank">Kirish <span><i
+              class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
         </div>
         <div class="col-md-4 groups-item mb-5">
           <i class="fa fa-table fa-2x" aria-hidden="true"></i>
           <p class="title">Dars Jadvali</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, porro!</p>
-          <a class="links" href="#">Kirish <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
+          <a class="links" href="https://hemis.tfi.uz/dashboard/login" target="_blank">Kirish <span><i
+              class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
         </div>
         <div class="col-md-4 groups-item mb-5">
           <i class="fa fa-user fa-2x" aria-hidden="true"></i>
           <p class="title">HEMIS-O'qituvchi</p>
           <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, porro!</p>
-          <a class="links" href="#">Kirish <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
+          <a class="links" href="https://hemis.tfi.uz/dashboard/login" target="_blank">Kirish <span><i
+              class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
         </div>
         <div class="col-md-4 groups-item mb-5">
           <i class="fa-solid fa-user-graduate fa-2x"></i>
           <p class="title">HEMIS-Talaba</p>
           <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, porro!</p>
-          <a class="links" href="#">Kirish <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
+          <a class="links" href="https://hemis.tfi.uz/dashboard/login" target="_blank">Kirish <span><i
+              class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
         </div>
         <div class="col-md-4 groups-item mb-5">
           <i class="fa fa-table fa-2x" aria-hidden="true"></i>
           <p class="title">Dars Jadvali</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, porro!</p>
-          <a class="links" href="#">Kirish <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
+          <a class="links" href="https://hemis.tfi.uz/dashboard/login" target="_blank">Kirish <span><i
+              class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
         </div>
         <div class="col-md-4 groups-item mb-5">
           <i class="fa-solid fa-user-graduate fa-2x"></i>
           <p class="title">HEMIS-Talaba</p>
           <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, porro!</p>
-          <a class="links" href="#">Kirish <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
+          <a class="links" href="https://hemis.tfi.uz/dashboard/login" target="_blank">Kirish <span><i
+              class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
         </div>
         <div class="col-md-4 groups-item mb-5">
           <i class="fa fa-table fa-2x" aria-hidden="true"></i>
           <p class="title">Dars Jadvali</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, porro!</p>
-          <a class="links" href="#">Kirish <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
+          <a class="links" href="https://hemis.tfi.uz/dashboard/login" target="_blank">Kirish <span><i
+              class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
         </div>
       </div>
     </div>

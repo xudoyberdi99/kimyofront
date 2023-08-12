@@ -10,6 +10,7 @@ import ConferencesView from "@/views/ConferencesView.vue";
 import FacultysView from "@/views/FacultysView.vue";
 import ActiveStudentsView from "@/views/ActiveStudentsView.vue";
 import NewsDetailView from "@/views/NewsDetailView.vue";
+import AnnouncementDetailView from "@/views/AnnouncementDetailView.vue";
 
 Vue.use(VueRouter)
 
@@ -49,6 +50,11 @@ const routes = [
         path: '/announcementView',
         name: 'announcementView',
         component: AnnouncementView
+    },
+    {
+        path: '/announcement-detail/:id',
+        name: 'announcement-detail',
+        component: AnnouncementDetailView
     },
     {
         path: '/confrences',

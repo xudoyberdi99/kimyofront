@@ -19,37 +19,43 @@
             <i class="fa-solid fa-laptop fa-2x"></i>
             <p class="title">Kunduzgi ta'lim platformasi</p>
             <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, porro!</p>
-            <a class="links" href="#">Kirish <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
+            <a class="links" href="https://hemis.tfi.uz/dashboard/login" target="_blank">Kirish <span><i
+                class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
           </div>
           <div class="col-md-4 groups-item">
             <i class="fa-solid fa-desktop fa-2x"></i>
             <p class="title">Sirtqi talim platformasi</p>
             <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, porro!</p>
-            <a class="links" href="#">Kirish <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
+            <a class="links" href="https://hemis.tfi.uz/dashboard/login" target="_blank">Kirish <span><i
+                class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
           </div>
           <div class="col-md-4 groups-item">
             <i class="fa-solid fa-book fa-2x"></i>
             <p class="title">E-Kutubxona</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, porro!</p>
-            <a class="links" href="#">Kirish <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
+            <a class="links" href="https://hemis.tfi.uz/dashboard/login" target="_blank">Kirish <span><i
+                class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
           </div>
           <div class="col-md-4 groups-item">
             <i class="fa-solid fa-bullseye fa-2x"></i>
             <p class="title">Korporativ elektiron pochta</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, porro!</p>
-            <a class="links" href="#">Kirish <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
+            <a class="links" href="https://hemis.tfi.uz/dashboard/login" target="_blank">Kirish <span><i
+                class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
           </div>
           <div class="col-md-4 groups-item">
             <i class="fa-solid fa-flask fa-2x"></i>
             <p class="title">Testlar</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, porro!</p>
-            <a class="links" href="#">Kirish <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
+            <a class="links" href="https://hemis.tfi.uz/dashboard/login" target="_blank">Kirish <span><i
+                class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
           </div>
           <div class="col-md-4 groups-item">
             <i class="fa-solid fa-hotel fa-2x"></i>
             <p class="title">Rektorning virtual qabulxonasi</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, porro!</p>
-            <a class="links" href="#">Kirish <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
+            <a class="links" href="https://hemis.tfi.uz/dashboard/login" target="_blank">Kirish <span><i
+                class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
           </div>
         </div>
       </div>

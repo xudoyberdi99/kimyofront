@@ -5,7 +5,9 @@
         <div class="card" style="width: 16rem;">
           <img src="@/assets/istockphoto-1366724877-612x612.jpg" class="card-img-top" alt="qwdwfd">
           <div class="card-body p-1">
-            <h5 class="card-title fw-bold">Lorem ipsum dolor sit amet, consectetur adipisicing.</h5>
+            <a style="text-decoration: none; color: black;" :href="'announcement-detail/1'"><h5
+                class="card-title fw-bold">Lorem ipsum dolor
+              sit amet, consectetur adipisicing.</h5></a>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
             <div class="card-footers">
@@ -20,159 +22,226 @@
           </div>
         </div>
       </div>
-        <div class="col-md-4 pb-5 ">
-            <div class="card" style="width: 16rem;">
-                <img src="@/assets/istockphoto-1366724877-612x612.jpg" class="card-img-top" alt="qwdwfd">
-                <div class="card-body p-1">
-                    <h5 class="card-title fw-bold">Lorem ipsum dolor sit amet, consectetur adipisicing.</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                        content.</p>
-                    <div class="card-footers">
-                        <div class="eyes">
-                            <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
-                        </div>
-                        <div>
-                            <i class="fa-solid fa-calendar"></i>
-                            <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
-                        </div>
-                    </div>
-                </div>
+      <div class="col-md-4 pb-5 ">
+        <div class="card" style="width: 16rem;">
+          <img src="@/assets/istockphoto-1366724877-612x612.jpg" class="card-img-top" alt="qwdwfd">
+          <div class="card-body p-1">
+            <a style="text-decoration: none; color: black;" href="#"><h5 class="card-title fw-bold">Lorem ipsum dolor
+              sit amet, consectetur adipisicing.</h5></a>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <div class="card-footers">
+              <div class="eyes">
+                <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-calendar"></i>
+                <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
+              </div>
             </div>
+          </div>
         </div>
-        <div class="col-md-4 pb-5 ">
-            <div class="card" style="width: 16rem;">
-                <img src="@/assets/istockphoto-1366724877-612x612.jpg" class="card-img-top" alt="qwdwfd">
-                <div class="card-body p-1">
-                    <h5 class="card-title fw-bold">Lorem ipsum dolor sit amet, consectetur adipisicing.</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                        content.</p>
-                    <div class="card-footers">
-                        <div class="eyes">
-                            <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
-                        </div>
-                        <div>
-                            <i class="fa-solid fa-calendar"></i>
-                            <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
-                        </div>
-                    </div>
-                </div>
+      </div>
+      <div class="col-md-4 pb-5 ">
+        <div class="card" style="width: 16rem;">
+          <img src="@/assets/istockphoto-1366724877-612x612.jpg" class="card-img-top" alt="qwdwfd">
+          <div class="card-body p-1">
+            <a style="text-decoration: none; color: black;" href="#"><h5 class="card-title fw-bold">Lorem ipsum dolor
+              sit amet, consectetur adipisicing.</h5></a>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <div class="card-footers">
+              <div class="eyes">
+                <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-calendar"></i>
+                <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
+              </div>
             </div>
+          </div>
         </div>
-        <div class="col-md-4 pb-5 ">
-            <div class="card" style="width: 16rem;">
-                <img src="@/assets/istockphoto-1366724877-612x612.jpg" class="card-img-top" alt="qwdwfd">
-                <div class="card-body p-1">
-                    <h5 class="card-title fw-bold">Lorem ipsum dolor sit amet, consectetur adipisicing.</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                        content.</p>
-                    <div class="card-footers">
-                        <div class="eyes">
-                            <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
-                        </div>
-                        <div>
-                            <i class="fa-solid fa-calendar"></i>
-                            <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
-                        </div>
-                    </div>
-                </div>
+      </div>
+      <div class="col-md-4 pb-5 ">
+        <div class="card" style="width: 16rem;">
+          <img src="@/assets/istockphoto-1366724877-612x612.jpg" class="card-img-top" alt="qwdwfd">
+          <div class="card-body p-1">
+            <a style="text-decoration: none; color: black;" href="#"><h5 class="card-title fw-bold">Lorem ipsum dolor
+              sit amet, consectetur adipisicing.</h5></a>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <div class="card-footers">
+              <div class="eyes">
+                <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-calendar"></i>
+                <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
+              </div>
             </div>
+          </div>
         </div>
-        <div class="col-md-4 pb-5 ">
-            <div class="card" style="width: 16rem;">
-                <img src="@/assets/istockphoto-1366724877-612x612.jpg" class="card-img-top" alt="qwdwfd">
-                <div class="card-body p-1">
-                    <h5 class="card-title fw-bold">Lorem ipsum dolor sit amet, consectetur adipisicing.</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                        content.</p>
-                    <div class="card-footers">
-                        <div class="eyes">
-                            <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
-                        </div>
-                        <div>
-                            <i class="fa-solid fa-calendar"></i>
-                            <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
-                        </div>
-                    </div>
-                </div>
+      </div>
+      <div class="col-md-4 pb-5 ">
+        <div class="card" style="width: 16rem;">
+          <img src="@/assets/istockphoto-1366724877-612x612.jpg" class="card-img-top" alt="qwdwfd">
+          <div class="card-body p-1">
+            <a style="text-decoration: none; color: black;" href="#"><h5 class="card-title fw-bold">Lorem ipsum dolor
+              sit amet, consectetur adipisicing.</h5></a>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <div class="card-footers">
+              <div class="eyes">
+                <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-calendar"></i>
+                <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
+              </div>
             </div>
+          </div>
         </div>
-        <div class="col-md-4 pb-5 ">
-            <div class="card" style="width: 16rem;">
-                <img src="@/assets/istockphoto-1366724877-612x612.jpg" class="card-img-top" alt="qwdwfd">
-                <div class="card-body p-1">
-                    <h5 class="card-title fw-bold">Lorem ipsum dolor sit amet, consectetur adipisicing.</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                        content.</p>
-                    <div class="card-footers">
-                        <div class="eyes">
-                            <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
-                        </div>
-                        <div>
-                            <i class="fa-solid fa-calendar"></i>
-                            <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
-                        </div>
-                    </div>
-                </div>
+      </div>
+      <div class="col-md-4 pb-5 ">
+        <div class="card" style="width: 16rem;">
+          <img src="@/assets/istockphoto-1366724877-612x612.jpg" class="card-img-top" alt="qwdwfd">
+          <div class="card-body p-1">
+            <a style="text-decoration: none; color: black;" href="#"><h5 class="card-title fw-bold">Lorem ipsum dolor
+              sit amet, consectetur adipisicing.</h5></a>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <div class="card-footers">
+              <div class="eyes">
+                <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-calendar"></i>
+                <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
+              </div>
             </div>
+          </div>
         </div>
-        <div class="col-md-4 pb-5 ">
-            <div class="card" style="width: 16rem;">
-                <img src="@/assets/istockphoto-1366724877-612x612.jpg" class="card-img-top" alt="qwdwfd">
-                <div class="card-body p-1">
-                    <h5 class="card-title fw-bold">Lorem ipsum dolor sit amet, consectetur adipisicing.</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                        content.</p>
-                    <div class="card-footers">
-                        <div class="eyes">
-                            <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
-                        </div>
-                        <div>
-                            <i class="fa-solid fa-calendar"></i>
-                            <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
-                        </div>
-                    </div>
-                </div>
+      </div>
+      <div class="col-md-4 pb-5 ">
+        <div class="card" style="width: 16rem;">
+          <img src="@/assets/istockphoto-1366724877-612x612.jpg" class="card-img-top" alt="qwdwfd">
+          <div class="card-body p-1">
+            <a style="text-decoration: none; color: black;" href="#"><h5 class="card-title fw-bold">Lorem ipsum dolor
+              sit amet, consectetur adipisicing.</h5></a>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <div class="card-footers">
+              <div class="eyes">
+                <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-calendar"></i>
+                <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
+              </div>
             </div>
+          </div>
         </div>
-        <div class="col-md-4 pb-5 ">
-            <div class="card" style="width: 16rem;">
-                <img src="@/assets/istockphoto-1366724877-612x612.jpg" class="card-img-top" alt="qwdwfd">
-                <div class="card-body p-1">
-                    <h5 class="card-title fw-bold">Lorem ipsum dolor sit amet, consectetur adipisicing.</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                        content.</p>
-                    <div class="card-footers">
-                        <div class="eyes">
-                            <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
-                        </div>
-                        <div>
-                            <i class="fa-solid fa-calendar"></i>
-                            <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
-                        </div>
-                    </div>
-                </div>
+      </div>
+      <div class="col-md-4 pb-5 ">
+        <div class="card" style="width: 16rem;">
+          <img src="@/assets/istockphoto-1366724877-612x612.jpg" class="card-img-top" alt="qwdwfd">
+          <div class="card-body p-1">
+            <a style="text-decoration: none; color: black;" href="#"><h5 class="card-title fw-bold">Lorem ipsum dolor
+              sit amet, consectetur adipisicing.</h5></a>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <div class="card-footers">
+              <div class="eyes">
+                <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-calendar"></i>
+                <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
+              </div>
             </div>
+          </div>
         </div>
-        <div class="col-md-4 pb-5 ">
-            <div class="card" style="width: 16rem;">
-                <img src="@/assets/istockphoto-1366724877-612x612.jpg" class="card-img-top" alt="qwdwfd">
-                <div class="card-body p-1">
-                    <h5 class="card-title fw-bold">Lorem ipsum dolor sit amet, consectetur adipisicing.</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                        content.</p>
-                    <div class="card-footers">
-                        <div class="eyes">
-                            <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
-                        </div>
-                        <div>
-                            <i class="fa-solid fa-calendar"></i>
-                            <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
-                        </div>
-                    </div>
-                </div>
+      </div>
+      <div class="col-md-4 pb-5 ">
+        <div class="card" style="width: 16rem;">
+          <img src="@/assets/istockphoto-1366724877-612x612.jpg" class="card-img-top" alt="qwdwfd">
+          <div class="card-body p-1">
+            <a style="text-decoration: none; color: black;" href="#"><h5 class="card-title fw-bold">Lorem ipsum dolor
+              sit amet, consectetur adipisicing.</h5></a>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <div class="card-footers">
+              <div class="eyes">
+                <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-calendar"></i>
+                <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
+              </div>
             </div>
+          </div>
         </div>
-
+      </div>
+      <div class="col-md-4 pb-5 ">
+        <div class="card" style="width: 16rem;">
+          <img src="@/assets/istockphoto-1366724877-612x612.jpg" class="card-img-top" alt="qwdwfd">
+          <div class="card-body p-1">
+            <a style="text-decoration: none; color: black;" href="#"><h5 class="card-title fw-bold">Lorem ipsum dolor
+              sit amet, consectetur adipisicing.</h5></a>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <div class="card-footers">
+              <div class="eyes">
+                <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-calendar"></i>
+                <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 pb-5 ">
+        <div class="card" style="width: 16rem;">
+          <img src="@/assets/istockphoto-1366724877-612x612.jpg" class="card-img-top" alt="qwdwfd">
+          <div class="card-body p-1">
+            <a style="text-decoration: none; color: black;" href="#"><h5 class="card-title fw-bold">Lorem ipsum dolor
+              sit amet, consectetur adipisicing.</h5></a>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <div class="card-footers">
+              <div class="eyes">
+                <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-calendar"></i>
+                <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 pb-5 ">
+        <div class="card" style="width: 16rem;">
+          <img src="@/assets/istockphoto-1366724877-612x612.jpg" class="card-img-top" alt="qwdwfd">
+          <div class="card-body p-1">
+            <a style="text-decoration: none; color: black;" href="#"><h5 class="card-title fw-bold">Lorem ipsum dolor
+              sit amet, consectetur adipisicing.</h5></a>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <div class="card-footers">
+              <div class="eyes">
+                <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-calendar"></i>
+                <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
