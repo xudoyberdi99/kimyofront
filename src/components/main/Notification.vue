@@ -11,11 +11,10 @@
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <a class="text-decoration-none text-dark" href="#"><h5 class="card-title fw-bold">Lorem ipsum dolor
-                    sit amet,
-                    consectetur
-                    adipisicing.</h5>
-                  </a>
+                  <router-link class="custom-link" to="/announcement-detail/1"><h5 class="card-title fw-bold">Lorem
+                    ipsum
+                    dolor
+                    sit amet, consectetur adipisicing.</h5></router-link>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                     additional content. This content is a little bit longer.</p>
                   <div class="card-footers">
@@ -39,11 +38,10 @@
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <a class="text-decoration-none text-dark" href="#"><h5 class="card-title fw-bold">Lorem ipsum dolor
-                    sit amet,
-                    consectetur
-                    adipisicing.</h5>
-                  </a>
+                  <router-link class="custom-link" to="/announcement-detail/1"><h5 class="card-title fw-bold">Lorem
+                    ipsum
+                    dolor
+                    sit amet, consectetur adipisicing.</h5></router-link>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                     additional content. This content is a little bit longer.</p>
                   <div class="card-footers">
@@ -67,11 +65,10 @@
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <a class="text-decoration-none text-dark" href="#"><h5 class="card-title fw-bold">Lorem ipsum dolor
-                    sit amet,
-                    consectetur
-                    adipisicing.</h5>
-                  </a>
+                  <router-link class="custom-link" to="/announcement-detail/1"><h5 class="card-title fw-bold">Lorem
+                    ipsum
+                    dolor
+                    sit amet, consectetur adipisicing.</h5></router-link>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                     additional content. This content is a little bit longer.</p>
                   <div class="card-footers">
@@ -99,7 +96,7 @@
       </div>
       <div class="col-md-6">
         <h3 class="fw-bold mb-4">Konferinsiyalar</h3>
-        <a href="#" style="text-decoration: none; color: black;">
+        <router-link class="custom-link" to="/confrences-detail/1">
           <div class="card mb-3 card2" style="max-width: 540px;">
             <div class="row g-0">
               <div class="col-md-3">
@@ -127,8 +124,8 @@
               </div>
             </div>
           </div>
-        </a>
-        <a href="#" style="text-decoration: none; color: black;">
+        </router-link>
+        <router-link class="custom-link" to="/confrences-detail/1">
           <div class="card mb-3 card2" style="max-width: 540px;">
             <div class="row g-0">
               <div class="col-md-3">
@@ -156,8 +153,8 @@
               </div>
             </div>
           </div>
-        </a>
-        <a href="#" style="text-decoration: none; color: black;">
+        </router-link>
+        <router-link class="custom-link" to="/confrences-detail/1">
           <div class="card mb-3 card2" style="max-width: 540px;">
             <div class="row g-0">
               <div class="col-md-3">
@@ -185,8 +182,8 @@
               </div>
             </div>
           </div>
-        </a>
-        <a href="#" style="text-decoration: none; color: black;">
+        </router-link>
+        <router-link class="custom-link" to="/confrences-detail/1">
           <div class="card mb-3 card2" style="max-width: 540px;">
             <div class="row g-0">
               <div class="col-md-3">
@@ -214,7 +211,7 @@
               </div>
             </div>
           </div>
-        </a>
+        </router-link>
         <div class="text-center mt-4">
           <button @click="$router.push('confrences')" style="background-color: #FDC800;
                   color: black; width: 150px; border-radius: 5px;
@@ -319,5 +316,15 @@ export default {
 .dayss {
   margin-bottom: 0px;
   margin-top: 15px;
+}
+
+.custom-link {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.custom-link:hover {
+  color: #0056b3;
 }
 </style>

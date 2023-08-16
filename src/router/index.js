@@ -11,6 +11,7 @@ import FacultysView from "@/views/FacultysView.vue";
 import ActiveStudentsView from "@/views/ActiveStudentsView.vue";
 import NewsDetailView from "@/views/NewsDetailView.vue";
 import AnnouncementDetailView from "@/views/AnnouncementDetailView.vue";
+import ConferencesDetailView from "@/views/ConferencesDetailView.vue";
 
 Vue.use(VueRouter)
 
@@ -60,6 +61,11 @@ const routes = [
         path: '/confrences',
         name: 'confrences',
         component: ConferencesView
+    },
+    {
+        path: '/confrences-detail/:id',
+        name: 'confrences-detail',
+        component: ConferencesDetailView
     },
     {
         path: '/allFacultys',

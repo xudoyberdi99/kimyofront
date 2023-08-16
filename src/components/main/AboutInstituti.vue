@@ -11,7 +11,7 @@
           </p>
 
           <button
-              @click="$router.push('newsday')"
+              @click="$router.push('about')"
               style="
               background-color: #fdc800;
               color: black;

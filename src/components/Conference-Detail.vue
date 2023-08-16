@@ -1,12 +1,23 @@
 <template>
   <div>
-    <p class="text-center p-3 pb-3 fs-3">
+    <p class="text-center text-dark pb-3 fs-3 p-3">
       <strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, officia</strong>
     </p>
-    <img class="w-100" src="https://tsue.uz/media/static_gallery/slider_image_R4KUHh5.apng" alt="adead"/>
-    <div class="single-content pt-5">
+    <hr>
+    <div class="d-flex justify-content-between py-4">
+      <div>
+        <i class="fa-solid fa-calendar"></i>
+        <span><time class="times">{{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
+      </div>
+      <div class="px-2">
+        <i class="fas fa-share"></i>
+        <span><time class="times">123</time></span>
+      </div>
 
-      <p class="text">
+    </div>
+    <img class="w-100" src="@/assets/istockphoto-1386452720-612x612.jpg" alt="adead"/>
+    <div class="single-content pt-5">
+      <p class="lh-base">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus
         aliquam architecto aut blanditiis consequuntur distinctio earum, eius
         enim eos error et excepturi expedita facilis hic id illo itaque
@@ -124,11 +135,17 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      currentDate: new Date().getDate(),
+      currentMonth: new Date().getMonth() + 1,
+      currentYear: new Date().getFullYear()
+    };
+  }
+}
 </script>
 
 <style scoped>
-.text {
-  line-height: 30px;
-}
+
 </style>
