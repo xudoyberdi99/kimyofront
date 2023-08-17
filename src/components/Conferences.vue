@@ -1,187 +1,287 @@
 <template>
   <div class="col-md-12">
-    <h3 class="fw-bold mb-5 text-center">Konferinsiyalar</h3>
-    <router-link class="custom-link" to="/confrences-detail/1">
-      <div class="card mb-3">
-        <div class="row g-0">
-          <div class="col-md-2" style="height: 120px;">
-            <div class="card-box">
-              <span class="dot spot1"></span>
-              <span class="dot spot2"></span>
-              <h5 class="fw-bold dayss">14</h5>
-              <p>yanvar</p>
-            </div>
+    <h3 class="fw-bold mb-5 text-center">Konferensiyalar</h3>
+
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-md-2" style="height: 120px;">
+          <div class="card-box">
+            <span class="dot spot1"></span>
+            <span class="dot spot2"></span>
+            <h5 class="fw-bold dayss">14</h5>
+            <p>yanvar</p>
           </div>
-          <div class="col-md-10">
-            <div class="card-body">
+        </div>
+        <div class="col-md-10">
+          <div class="card-body">
+            <router-link class="custom-link" to="/confrences-detail/1">
               <h5 class="card-title">Card title</h5>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus dolore est
                 fugit harum minima
                 molestiae nostrum obcaecati perferendis temporibus? Distinctio!</p>
-              <div class="card-footers">
-                <div class="eyes">
-                  <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
-                </div>
-                <div>
-                  <i class="fa-solid fa-calendar"></i>
-                  <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
-                </div>
+            </router-link>
+            <div class="card-footers">
+              <div class="eyes">
+                <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-calendar"></i>
+                <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </router-link>
-    <router-link class="custom-link" to="confrences-detail/1">
-      <div class="card mb-3">
-        <div class="row g-0">
-          <div class="col-md-2" style="height: 120px;">
-            <div class="card-box">
-              <span class="dot spot1"></span>
-              <span class="dot spot2"></span>
-              <h5 class="fw-bold dayss">14</h5>
-              <p>yanvar</p>
-            </div>
+    </div>
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-md-2" style="height: 120px;">
+          <div class="card-box">
+            <span class="dot spot1"></span>
+            <span class="dot spot2"></span>
+            <h5 class="fw-bold dayss">14</h5>
+            <p>yanvar</p>
           </div>
-          <div class="col-md-10">
-            <div class="card-body">
+        </div>
+        <div class="col-md-10">
+          <div class="card-body">
+            <router-link class="custom-link" to="/confrences-detail/1">
               <h5 class="card-title">Card title</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus dolore est fugit harum minima
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus dolore est
+                fugit harum minima
                 molestiae nostrum obcaecati perferendis temporibus? Distinctio!</p>
-              <div class="card-footers">
-                <div class="eyes">
-                  <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
-                </div>
-                <div>
-                  <i class="fa-solid fa-calendar"></i>
-                  <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
-                </div>
+            </router-link>
+            <div class="card-footers">
+              <div class="eyes">
+                <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-calendar"></i>
+                <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </router-link>
-    <router-link class="custom-link" to="confrences-detail/1">
-      <div class="card mb-3">
-        <div class="row g-0">
-          <div class="col-md-2" style="height: 120px;">
-            <div class="card-box">
-              <span class="dot spot1"></span>
-              <span class="dot spot2"></span>
-              <h5 class="fw-bold dayss">14</h5>
-              <p>yanvar</p>
-            </div>
+    </div>
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-md-2" style="height: 120px;">
+          <div class="card-box">
+            <span class="dot spot1"></span>
+            <span class="dot spot2"></span>
+            <h5 class="fw-bold dayss">14</h5>
+            <p>yanvar</p>
           </div>
-          <div class="col-md-10">
-            <div class="card-body">
+        </div>
+        <div class="col-md-10">
+          <div class="card-body">
+            <router-link class="custom-link" to="/confrences-detail/1">
               <h5 class="card-title">Card title</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus dolore est fugit harum minima
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus dolore est
+                fugit harum minima
                 molestiae nostrum obcaecati perferendis temporibus? Distinctio!</p>
-              <div class="card-footers">
-                <div class="eyes">
-                  <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
-                </div>
-                <div>
-                  <i class="fa-solid fa-calendar"></i>
-                  <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
-                </div>
+            </router-link>
+            <div class="card-footers">
+              <div class="eyes">
+                <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-calendar"></i>
+                <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </router-link>
-    <router-link class="custom-link" to="confrences-detail/1">
-      <div class="card mb-3">
-        <div class="row g-0">
-          <div class="col-md-2" style="height: 120px;">
-            <div class="card-box">
-              <span class="dot spot1"></span>
-              <span class="dot spot2"></span>
-              <h5 class="fw-bold dayss">14</h5>
-              <p>yanvar</p>
-            </div>
+    </div>
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-md-2" style="height: 120px;">
+          <div class="card-box">
+            <span class="dot spot1"></span>
+            <span class="dot spot2"></span>
+            <h5 class="fw-bold dayss">14</h5>
+            <p>yanvar</p>
           </div>
-          <div class="col-md-10">
-            <div class="card-body">
+        </div>
+        <div class="col-md-10">
+          <div class="card-body">
+            <router-link class="custom-link" to="/confrences-detail/1">
               <h5 class="card-title">Card title</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus dolore est fugit harum minima
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus dolore est
+                fugit harum minima
                 molestiae nostrum obcaecati perferendis temporibus? Distinctio!</p>
-              <div class="card-footers">
-                <div class="eyes">
-                  <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
-                </div>
-                <div>
-                  <i class="fa-solid fa-calendar"></i>
-                  <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
-                </div>
+            </router-link>
+            <div class="card-footers">
+              <div class="eyes">
+                <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-calendar"></i>
+                <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </router-link>
-    <router-link class="custom-link" to="confrences-detail/1">
-      <div class="card mb-3">
-        <div class="row g-0">
-          <div class="col-md-2" style="height: 120px;">
-            <div class="card-box">
-              <span class="dot spot1"></span>
-              <span class="dot spot2"></span>
-              <h5 class="fw-bold dayss">14</h5>
-              <p>yanvar</p>
-            </div>
+    </div>
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-md-2" style="height: 120px;">
+          <div class="card-box">
+            <span class="dot spot1"></span>
+            <span class="dot spot2"></span>
+            <h5 class="fw-bold dayss">14</h5>
+            <p>yanvar</p>
           </div>
-          <div class="col-md-10">
-            <div class="card-body">
+        </div>
+        <div class="col-md-10">
+          <div class="card-body">
+            <router-link class="custom-link" to="/confrences-detail/1">
               <h5 class="card-title">Card title</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus dolore est fugit harum minima
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus dolore est
+                fugit harum minima
                 molestiae nostrum obcaecati perferendis temporibus? Distinctio!</p>
-              <div class="card-footers">
-                <div class="eyes">
-                  <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
-                </div>
-                <div>
-                  <i class="fa-solid fa-calendar"></i>
-                  <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
-                </div>
+            </router-link>
+            <div class="card-footers">
+              <div class="eyes">
+                <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-calendar"></i>
+                <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </router-link>
-    <router-link class="custom-link" to="confrences-detail/1">
-      <div class="card mb-3">
-        <div class="row g-0">
-          <div class="col-md-2" style="height: 120px;">
-            <div class="card-box">
-              <span class="dot spot1"></span>
-              <span class="dot spot2"></span>
-              <h5 class="fw-bold dayss">14</h5>
-              <p>yanvar</p>
-            </div>
+    </div>
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-md-2" style="height: 120px;">
+          <div class="card-box">
+            <span class="dot spot1"></span>
+            <span class="dot spot2"></span>
+            <h5 class="fw-bold dayss">14</h5>
+            <p>yanvar</p>
           </div>
-          <div class="col-md-10">
-            <div class="card-body">
+        </div>
+        <div class="col-md-10">
+          <div class="card-body">
+            <router-link class="custom-link" to="/confrences-detail/1">
               <h5 class="card-title">Card title</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus dolore est fugit harum minima
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus dolore est
+                fugit harum minima
                 molestiae nostrum obcaecati perferendis temporibus? Distinctio!</p>
-              <div class="card-footers">
-                <div class="eyes">
-                  <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
-                </div>
-                <div>
-                  <i class="fa-solid fa-calendar"></i>
-                  <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
-                </div>
+            </router-link>
+            <div class="card-footers">
+              <div class="eyes">
+                <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-calendar"></i>
+                <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </router-link>
+    </div>
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-md-2" style="height: 120px;">
+          <div class="card-box">
+            <span class="dot spot1"></span>
+            <span class="dot spot2"></span>
+            <h5 class="fw-bold dayss">14</h5>
+            <p>yanvar</p>
+          </div>
+        </div>
+        <div class="col-md-10">
+          <div class="card-body">
+            <router-link class="custom-link" to="/confrences-detail/1">
+              <h5 class="card-title">Card title</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus dolore est
+                fugit harum minima
+                molestiae nostrum obcaecati perferendis temporibus? Distinctio!</p>
+            </router-link>
+            <div class="card-footers">
+              <div class="eyes">
+                <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-calendar"></i>
+                <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-md-2" style="height: 120px;">
+          <div class="card-box">
+            <span class="dot spot1"></span>
+            <span class="dot spot2"></span>
+            <h5 class="fw-bold dayss">14</h5>
+            <p>yanvar</p>
+          </div>
+        </div>
+        <div class="col-md-10">
+          <div class="card-body">
+            <router-link class="custom-link" to="/confrences-detail/1">
+              <h5 class="card-title">Card title</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus dolore est
+                fugit harum minima
+                molestiae nostrum obcaecati perferendis temporibus? Distinctio!</p>
+            </router-link>
+            <div class="card-footers">
+              <div class="eyes">
+                <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-calendar"></i>
+                <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-md-2" style="height: 120px;">
+          <div class="card-box">
+            <span class="dot spot1"></span>
+            <span class="dot spot2"></span>
+            <h5 class="fw-bold dayss">14</h5>
+            <p>yanvar</p>
+          </div>
+        </div>
+        <div class="col-md-10">
+          <div class="card-body">
+            <router-link class="custom-link" to="/confrences-detail/1">
+              <h5 class="card-title">Card title</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus dolore est
+                fugit harum minima
+                molestiae nostrum obcaecati perferendis temporibus? Distinctio!</p>
+            </router-link>
+            <div class="card-footers">
+              <div class="eyes">
+                <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-calendar"></i>
+                <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </template>
 

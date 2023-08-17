@@ -96,122 +96,123 @@
       </div>
       <div class="col-md-6">
         <h3 class="fw-bold mb-4">Konferinsiyalar</h3>
-        <router-link class="custom-link" to="/confrences-detail/1">
-          <div class="card mb-3 card2" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-3">
-                <div class="card-box">
-                  <span class="dot spot1"></span>
-                  <span class="dot spot2"></span>
-                  <h5 class="fw-bold dayss">14</h5>
-                  <p>yanvar</p>
-                </div>
+
+        <div class="card mb-3 card2" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-3">
+              <div class="card-box">
+                <span class="dot spot1"></span>
+                <span class="dot spot2"></span>
+                <h5 class="fw-bold dayss">14</h5>
+                <p>yanvar</p>
               </div>
-              <div class="col-md-9">
-                <div class="card-body">
+            </div>
+            <div class="col-md-9">
+              <div class="card-body">
+                <router-link class="custom-link" to="/confrences-detail/1">
                   <h5 class="card-title">Card title</h5>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, libero?</p>
-                  <div class="card-footers">
-                    <div class="eyes">
-                      <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
-                    </div>
-                    <div>
-                      <i class="fa-solid fa-calendar"></i>
-                      <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
-                    </div>
+                </router-link>
+                <div class="card-footers">
+                  <div class="eyes">
+                    <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-calendar"></i>
+                    <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </router-link>
-        <router-link class="custom-link" to="/confrences-detail/1">
-          <div class="card mb-3 card2" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-3">
-                <div class="card-box">
-                  <span class="dot spot1"></span>
-                  <span class="dot spot2"></span>
-                  <h5 class="fw-bold dayss">14</h5>
-                  <p>yanvar</p>
-                </div>
+        </div>
+        <div class="card mb-3 card2" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-3">
+              <div class="card-box">
+                <span class="dot spot1"></span>
+                <span class="dot spot2"></span>
+                <h5 class="fw-bold dayss">14</h5>
+                <p>yanvar</p>
               </div>
-              <div class="col-md-9">
-                <div class="card-body">
+            </div>
+            <div class="col-md-9">
+              <div class="card-body">
+                <router-link class="custom-link" to="/confrences-detail/1">
                   <h5 class="card-title">Card title</h5>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, libero?</p>
-                  <div class="card-footers">
-                    <div class="eyes">
-                      <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
-                    </div>
-                    <div>
-                      <i class="fa-solid fa-calendar"></i>
-                      <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
-                    </div>
+                </router-link>
+                <div class="card-footers">
+                  <div class="eyes">
+                    <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-calendar"></i>
+                    <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </router-link>
-        <router-link class="custom-link" to="/confrences-detail/1">
-          <div class="card mb-3 card2" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-3">
-                <div class="card-box">
-                  <span class="dot spot1"></span>
-                  <span class="dot spot2"></span>
-                  <h5 class="fw-bold dayss">14</h5>
-                  <p>yanvar</p>
-                </div>
+        </div>
+        <div class="card mb-3 card2" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-3">
+              <div class="card-box">
+                <span class="dot spot1"></span>
+                <span class="dot spot2"></span>
+                <h5 class="fw-bold dayss">14</h5>
+                <p>yanvar</p>
               </div>
-              <div class="col-md-9">
-                <div class="card-body">
+            </div>
+            <div class="col-md-9">
+              <div class="card-body">
+                <router-link class="custom-link" to="/confrences-detail/1">
                   <h5 class="card-title">Card title</h5>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, libero?</p>
-                  <div class="card-footers">
-                    <div class="eyes">
-                      <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
-                    </div>
-                    <div>
-                      <i class="fa-solid fa-calendar"></i>
-                      <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
-                    </div>
+                </router-link>
+                <div class="card-footers">
+                  <div class="eyes">
+                    <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-calendar"></i>
+                    <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </router-link>
-        <router-link class="custom-link" to="/confrences-detail/1">
-          <div class="card mb-3 card2" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-3">
-                <div class="card-box">
-                  <span class="dot spot1"></span>
-                  <span class="dot spot2"></span>
-                  <h5 class="fw-bold dayss">14</h5>
-                  <p>yanvar</p>
-                </div>
+        </div>
+        <div class="card mb-3 card2" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-3">
+              <div class="card-box">
+                <span class="dot spot1"></span>
+                <span class="dot spot2"></span>
+                <h5 class="fw-bold dayss">14</h5>
+                <p>yanvar</p>
               </div>
-              <div class="col-md-9">
-                <div class="card-body">
+            </div>
+            <div class="col-md-9">
+              <div class="card-body">
+                <router-link class="custom-link" to="/confrences-detail/1">
                   <h5 class="card-title">Card title</h5>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, libero?</p>
-                  <div class="card-footers">
-                    <div class="eyes">
-                      <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
-                    </div>
-                    <div>
-                      <i class="fa-solid fa-calendar"></i>
-                      <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
-                    </div>
+                </router-link>
+                <div class="card-footers">
+                  <div class="eyes">
+                    <i class="fa-solid fa-eye"></i><span class="times"> 109</span>
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-calendar"></i>
+                    <span><time class="times"> {{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </router-link>
+        </div>
         <div class="text-center mt-4">
           <button @click="$router.push('confrences')" style="background-color: #FDC800;
                   color: black; width: 150px; border-radius: 5px;

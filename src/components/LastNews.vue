@@ -5,11 +5,13 @@
         <el-card class="card-item" :body-style="{ padding: '0px' }">
           <img src="@/assets/priscilla-du-preez-XkKCui44iM0-unsplash.jpg" class="image">
           <div style="padding: 14px;">
-            <p class="fw-bold">siz doim etiborimizdasiz aziz bolajonlar</p>
+            <button @click="$router.push('news-detail/1')" class="buttons"><p class="fw-bold">siz doim etiborimizdasiz
+              aziz bolajonlar</p></button>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, dolorum!</p>
             <div class="bottom clearfix">
-              <button @click="$router.push('news-detail/1')" class="buttons">To'liq o'qish <span class="time"><i class="fa fa-arrow-right fa-sm"
-                                                                          aria-hidden="true"></i></span></button>
+              <button @click="$router.push('news-detail/1')" class="buttons">To'liq o'qish <span class="time"><i
+                  class="fa fa-arrow-right fa-sm"
+                  aria-hidden="true"></i></span></button>
               <div class="px-2">
                 <i class="fas fa-share"></i>
                 <span><time class="times">123</time></span>
@@ -27,11 +29,13 @@
           <img src="@/assets/istockphoto-1430133287-1024x1024.jpg"
                class="image">
           <div style="padding: 14px;">
-            <p class="fw-bold">siz doim etiborimizdasiz aziz bolajonlar</p>
+            <button @click="$router.push('news-detail/1')" class="buttons"><p class="fw-bold">siz doim etiborimizdasiz
+              aziz bolajonlar</p></button>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, dolorum!</p>
             <div class="bottom clearfix">
-              <button @click="$router.push('news-detail/1')" class="buttons">To'liq o'qish <span class="time"><i class="fa fa-arrow-right fa-sm"
-                                                                          aria-hidden="true"></i></span></button>
+              <button @click="$router.push('news-detail/1')" class="buttons">To'liq o'qish <span class="time"><i
+                  class="fa fa-arrow-right fa-sm"
+                  aria-hidden="true"></i></span></button>
               <div class="px-2">
                 <i class="fas fa-share"></i>
                 <span><time class="times">123</time></span>
@@ -48,11 +52,13 @@
         <el-card class="card-item" :body-style="{ padding: '0px' }">
           <img src="@/assets/priscilla-du-preez-XkKCui44iM0-unsplash.jpg" class="image">
           <div style="padding: 14px;">
-            <p class="fw-bold">siz doim etiborimizdasiz aziz bolajonlar</p>
+            <button @click="$router.push('news-detail/1')" class="buttons"><p class="fw-bold">siz doim etiborimizdasiz
+              aziz bolajonlar</p></button>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, dolorum!</p>
             <div class="bottom clearfix">
-              <button @click="$router.push('news-detail/1')" class="buttons">To'liq o'qish <span class="time"><i class="fa fa-arrow-right fa-sm"
-                                                                          aria-hidden="true"></i></span></button>
+              <button @click="$router.push('news-detail/1')" class="buttons">To'liq o'qish <span class="time"><i
+                  class="fa fa-arrow-right fa-sm"
+                  aria-hidden="true"></i></span></button>
               <div class="px-2">
                 <i class="fas fa-share"></i>
                 <span><time class="times">123</time></span>
@@ -70,11 +76,13 @@
           <img src="@/assets/istockphoto-1430133287-1024x1024.jpg"
                class="image">
           <div style="padding: 14px;">
-            <p class="fw-bold">siz doim etiborimizdasiz aziz bolajonlar</p>
+            <button @click="$router.push('news-detail/1')" class="buttons"><p class="fw-bold">siz doim etiborimizdasiz
+              aziz bolajonlar</p></button>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, dolorum!</p>
             <div class="bottom clearfix">
-              <button @click="$router.push('news-detail/1')" class="buttons">To'liq o'qish <span class="time"><i class="fa fa-arrow-right fa-sm"
-                                                                          aria-hidden="true"></i></span></button>
+              <button @click="$router.push('news-detail/1')" class="buttons">To'liq o'qish <span class="time"><i
+                  class="fa fa-arrow-right fa-sm"
+                  aria-hidden="true"></i></span></button>
               <div class="px-2">
                 <i class="fas fa-share"></i>
                 <span><time class="times">123</time></span>
@@ -91,11 +99,13 @@
         <el-card class="card-item" :body-style="{ padding: '0px' }">
           <img src="@/assets/priscilla-du-preez-XkKCui44iM0-unsplash.jpg" class="image">
           <div style="padding: 14px;">
-            <p class="fw-bold">siz doim etiborimizdasiz aziz bolajonlar</p>
+            <button @click="$router.push('news-detail/1')" class="buttons"><p class="fw-bold">siz doim etiborimizdasiz
+              aziz bolajonlar</p></button>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, dolorum!</p>
             <div class="bottom clearfix">
-              <button @click="$router.push('news-detail/1')" class="buttons">To'liq o'qish <span class="time"><i class="fa fa-arrow-right fa-sm"
-                                                                          aria-hidden="true"></i></span></button>
+              <button @click="$router.push('news-detail/1')" class="buttons">To'liq o'qish <span class="time"><i
+                  class="fa fa-arrow-right fa-sm"
+                  aria-hidden="true"></i></span></button>
               <div class="px-2">
                 <i class="fas fa-share"></i>
                 <span><time class="times">123</time></span>
@@ -113,11 +123,13 @@
           <img src="@/assets/istockphoto-1430133287-1024x1024.jpg"
                class="image">
           <div style="padding: 14px;">
-            <p class="fw-bold">siz doim etiborimizdasiz aziz bolajonlar</p>
+            <button @click="$router.push('news-detail/1')" class="buttons"><p class="fw-bold">siz doim etiborimizdasiz
+              aziz bolajonlar</p></button>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, dolorum!</p>
             <div class="bottom clearfix">
-              <button @click="$router.push('news-detail/1')" class="buttons">To'liq o'qish <span class="time"><i class="fa fa-arrow-right fa-sm"
-                                                                          aria-hidden="true"></i></span></button>
+              <button @click="$router.push('news-detail/1')" class="buttons">To'liq o'qish <span class="time"><i
+                  class="fa fa-arrow-right fa-sm"
+                  aria-hidden="true"></i></span></button>
               <div class="px-2">
                 <i class="fas fa-share"></i>
                 <span><time class="times">123</time></span>
@@ -201,4 +213,5 @@ export default {
 .buttons:hover {
   color: #FDC800;
 }
+
 </style>

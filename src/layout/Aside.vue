@@ -39,7 +39,7 @@
       <div class="card text-white p-0">
         <img src="@/assets/images.jpg" class="card-img" alt="imgs"/>
         <div class="card-img-overlay">
-          <h5 class="card-title">Rektorga murojaat</h5>
+          <h5 class="card-title mt-4">Rektorga murojaat</h5>
           <button
               type="button"
               class="btn btn-primary"
@@ -147,62 +147,55 @@
       </div>
     </div>
     <div class="row social">
-      <div class="col-8">
-        <h5 class="title text-dark fw-bold">Institutning Telegram rasmiy kanalini kuzatib boring</h5>
-        <a href="#"
-        >
-          <button class="mt-1 py-1 px-2  btn-light">Aʼzo bo‘lish</button>
-        </a
-        >
+      <div class="col-6 p-0 text-center">
+        <div class="border-bottom border-end">
+          <a href="https://icons8.com/icon/32323/instagram">
+            <img width="48" height="48" src="https://img.icons8.com/color/48/telegram-app--v1.png"
+                 alt="telegram-app--v1"/>
+          </a>
+          <p class="p-0 m-0 fw-bold">Obunachilar</p>
+          <p class="p-0 mb-1" style="font-size: 12px; color: #807D7DFF;">1234567</p>
+        </div>
+        <div class="border-top border-end">
+          <a href="https://icons8.com/icon/32323/instagram">
+            <img width="48" height="48" src="https://img.icons8.com/color/48/instagram-new--v1.png"
+                 alt="instagram-new--v1"/>
+          </a>
+          <p class="p-0 m-0 fw-bold">Obunachilar</p>
+          <p class="p-0" style="font-size: 12px; color: #807D7DFF;">1234567</p>
+        </div>
       </div>
-      <div class="col-4 pt-4">
-        <img width="48" height="48" src="https://img.icons8.com/color/48/telegram-app--v1.png" alt="telegram-app--v1"/>
-      </div>
-    </div>
-    <div class="card text-white card-social">
-      <img src="@/assets/dima-solomin-3pwMu6uVsJI-unsplash.jpg" class="card-img-social" alt="...">
-      <div class="card-img-overlay pt-1">
-        <h5 class="title">Institutning Telegram rasmiy kanalini kuzatib boring</h5>
-        <a href="#"
-        >
-          <button class="mt-1 py-1 px-2 btn btn-light">Aʼzo bo‘lish</button>
-        </a
-        >
-      </div>
-    </div>
-    <div class="card text-white card-social">
-      <img src="@/assets/instagram.jpg" class="card-img-social" alt="...">
-      <div class="card-img-overlay pt-1">
-        <h5 class="title">Institutning rasmiy Instagram sahifasi</h5>
-        <a href="#"
-        >
-          <button class="mt-1 py-1 px-2 btn btn-light">Aʼzo bo‘lish</button>
-        </a
-        >
-      </div>
-    </div>
-    <div class="card text-white card-social">
-      <img src="@/assets/facebook.jpg" class="card-img-social" alt="...">
-      <div class="card-img-overlay pt-1">
-        <h5 class="title">Institutning rasmiy Facebook sahifasi</h5>
-        <a href="#"
-        >
-          <button class="mt-1 py-1 px-2 btn btn-light">Aʼzo bo‘lish</button>
-        </a
-        >
+      <div class="col-6 p-0 text-center">
+        <div class="border-bottom border-start">
+          <a href="https://icons8.com/icon/32323/instagram">
+            <img width="48" height="48" src="https://img.icons8.com/color/48/facebook-new.png" alt="facebook-new"/>
+          </a>
+          <p class="p-0 m-0 fw-bold">Obunachilar</p>
+          <p class="p-0 mb-1" style="font-size: 12px; color: #807D7DFF;">1234567</p>
+        </div>
+        <div class="border-top border-start">
+          <a href="https://icons8.com/icon/32323/instagram">
+            <img width="48" height="48" src="https://img.icons8.com/color/48/twitter-squared.png"
+                 alt="twitter-squared"/>
+          </a>
+          <p class="p-0 m-0 fw-bold">Obunachilar</p>
+          <p class="p-0" style="font-size: 12px; color: #807D7DFF;">1234567</p>
+        </div>
       </div>
     </div>
-    <div class="card text-white card-social">
-      <img src="@/assets/twitter2.jpg" class="card-img-social" alt="...">
-      <div class="card-img-overlay pt-1">
-        <h5 class="title">Institutni rasmiy Twitter Sahifasida kuzating</h5>
-        <a href="#"
-        >
-          <button class="mt-1 py-1 px-2 btn btn-light">Aʼzo bo‘lish</button>
-        </a
-        >
-      </div>
-    </div>
+    <!--    <div class="row social">-->
+    <!--      <div class="col-8">-->
+    <!--        <h5 class="title text-dark fw-bold">Institutning Telegram rasmiy kanalini kuzatib boring</h5>-->
+    <!--        <a href="#"-->
+    <!--        >-->
+    <!--          <button class="mt-1 py-1 px-2  btn-primary">Aʼzo bo‘lish</button>-->
+    <!--        </a-->
+    <!--        >-->
+    <!--      </div>-->
+    <!--      <div class="col-4 pt-4">-->
+    <!--        <img width="48" height="48" src="https://img.icons8.com/color/48/telegram-app&#45;&#45;v1.png" alt="telegram-app&#45;&#45;v1"/>-->
+    <!--      </div>-->
+    <!--    </div>-->
   </div>
 </template>
 <script>
@@ -213,6 +206,7 @@ export default {};
 .social {
   background-color: #f6f9f8;
   padding: 10px;
+  margin-top: 15px;
 }
 
 .nav-pills {
@@ -245,7 +239,7 @@ export default {};
 }
 
 .card-title {
-  color: black;
+  color: #0411f8;
 }
 
 .card-img {
@@ -272,19 +266,4 @@ export default {};
   padding: 6px;
 }
 
-.title {
-  font-size: 15px;
-  color: white;
-}
-
-.card-social {
-  height: 100px !important;
-  margin-top: 10px;
-}
-
-.card-img-social {
-  display: block;
-  width: 100%;
-  height: 100px;
-}
 </style>
