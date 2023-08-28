@@ -1,6 +1,4 @@
 <template>
-  <!--    <section v-show="visible" id="navbar" class="sticky-menu sticky" v-on:scroll="handleScroll">-->
-
   <div class="container menu">
     <hr>
     <div class="row">
@@ -14,7 +12,6 @@
         <div class="d-flex justify-content-end mt-3">
           <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
             <!--                      <el-menu-item index="1">Bosh sahifa</el-menu-item>-->
-
             <el-submenu index="2">
               <template slot="title">Yangiliklar</template>
               <el-menu-item index="2-1">E’lonlar</el-menu-item>
@@ -145,7 +142,6 @@
       </div>
     </div>
   </div>
-  <!--    </section>-->
 </template>
 
 <script>

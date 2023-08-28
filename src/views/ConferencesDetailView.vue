@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-md-9">
         <ConferenceDetail></ConferenceDetail>
-        <SimilarPages></SimilarPages>
+        <!--        <SimilarPages></SimilarPages>-->
       </div>
       <div class="col-md-3">
         <Aside></Aside>

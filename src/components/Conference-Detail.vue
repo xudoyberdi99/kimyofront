@@ -14,76 +14,83 @@
         <span><time class="times">123</time></span>
       </div>
     </div>
-    <img class="w-100" src="@/assets/istockphoto-1386452720-612x612.jpg" alt="adead"/>
+    <!--    <img class="w-100" src="@/assets/istockphoto-1386452720-612x612.jpg" alt="adead"/>-->
     <div class="single-content pt-5">
-      <p class="lh-base">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus
-        aliquam architecto aut blanditiis consequuntur distinctio earum, eius
-        enim eos error et excepturi expedita facilis hic id illo itaque
-        laboriosam laborum libero magni minima neque non obcaecati officiis
-        omnis perferendis perspiciatis rem repellat repellendus sapiente sed
-        similique suscipit tenetur vel voluptatem voluptatum. Consectetur
-        debitis deleniti dicta dolorem eveniet facilis hic impedit ipsam iure
-        laborum molestias nihil non, officia pariatur provident repellat
-        repellendus temporibus ullam veritatis voluptate. Ab consequuntur
-        deserunt enim eum explicabo facilis natus, praesentium qui quisquam
-        velit! Ad autem beatae consectetur deleniti deserunt ducimus eius enim
-        eveniet exercitationem hic impedit incidunt iste laborum maiores non
-        odit officiis qui quo repellendus reprehenderit repudiandae sed sint
-        sunt ut, voluptas voluptatem voluptatibus voluptatum? A accusamus alias
-        animi consequatur corporis culpa deleniti dignissimos eligendi eos
-        eveniet illo magnam minus mollitia, nobis odio omnis quia repudiandae
-        sequi veritatis voluptate! Ad asperiores deleniti libero maxime natus
-        nulla perferendis quisquam unde, voluptatum! Accusamus cupiditate dicta,
-        ex laudantium natus odit omnis quidem quos rerum sint soluta suscipit
-        veritatis. Debitis doloribus incidunt odit quas velit! Amet aspernatur
-        doloribus dolorum magni molestiae repellendus. Ab, aliquid consectetur
-        corporis esse eveniet excepturi fugit, minima necessitatibus, pariatur
-        provident quae quo sequi sint!
-      </p>
-      <div id="carouselExampleCaptions" class="carousel slide my-5" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                  aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                  aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                  aria-label="Slide 3"></button>
+      <div class="row">
+        <div class="col-md-9">
+          <p class="lh-base">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus
+            aliquam architecto aut blanditiis consequuntur distinctio earum, eius
+            enim eos error et excepturi expedita facilis hic id illo itaque
+            laboriosam laborum libero magni minima neque non obcaecati officiis
+            omnis perferendis perspiciatis rem repellat repellendus sapiente sed
+            similique suscipit tenetur vel voluptatem voluptatum. Consectetur
+            debitis deleniti dicta dolorem eveniet facilis hic impedit ipsam iure
+            laborum molestias nihil non, officia pariatur provident repellat
+            repellendus temporibus ullam veritatis voluptate. Ab consequuntur
+            deserunt enim eum explicabo facilis natus, praesentium qui quisquam
+          </p>
+          <ul class="list-unstyled">
+            <li><span class="text-dark fw-bold">Manzil:</span> 100066, Toshkent shahri, Islom Karimov ko‘chasi, 49-uy.
+            </li>
+            <li><span class="text-dark fw-bold">Telefon:</span> +998 98 875 7678</li>
+            <li><span class="text-dark fw-bold">Faks:</span> (8 371) 234-11-48</li>
+            <li><span class="text-dark fw-bold">Email:</span> testlar@gmail.com</li>
+          </ul>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="@/assets/istockphoto-1386452720-612x612.jpg" class="d-block w-100 imgs" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <!--              <h5>First slide label</h5>-->
-              <!--              <p>Some representative placeholder content for the first slide.</p>-->
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="@/assets/istockphoto-1366724877-612x612.jpg" class="d-block w-100 imgs" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <!--              <h5>Second slide label</h5>-->
-              <!--              <p>Some representative placeholder content for the second slide.</p>-->
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="@/assets/istockphoto-1430133287-1024x1024.jpg" class="d-block w-100 imgs" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <!--              <h5>Third slide label</h5>-->
-              <!--              <p>Some representative placeholder content for the third slide.</p>-->
-            </div>
+        <div class="col-md-3" style="height: 120px; margin: 0 auto; text-align: center;">
+          <div class="card-box">
+            <span class="dot spot1"></span>
+            <span class="dot spot2"></span>
+            <h5 class="fw-bold dayss">14 - yanvar </h5>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
+
+
+      <!--      <div id="carouselExampleCaptions" class="carousel slide my-5" data-bs-ride="carousel">-->
+      <!--        <div class="carousel-indicators">-->
+      <!--          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"-->
+      <!--                  aria-current="true" aria-label="Slide 1"></button>-->
+      <!--          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"-->
+      <!--                  aria-label="Slide 2"></button>-->
+      <!--          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"-->
+      <!--                  aria-label="Slide 3"></button>-->
+      <!--        </div>-->
+      <!--        <div class="carousel-inner">-->
+      <!--          <div class="carousel-item active">-->
+      <!--            <img src="@/assets/istockphoto-1386452720-612x612.jpg" class="d-block w-100 imgs" alt="...">-->
+      <!--            <div class="carousel-caption d-none d-md-block">-->
+      <!--              &lt;!&ndash;              <h5>First slide label</h5>&ndash;&gt;-->
+      <!--              &lt;!&ndash;              <p>Some representative placeholder content for the first slide.</p>&ndash;&gt;-->
+      <!--            </div>-->
+      <!--          </div>-->
+      <!--          <div class="carousel-item">-->
+      <!--            <img src="@/assets/istockphoto-1366724877-612x612.jpg" class="d-block w-100 imgs" alt="...">-->
+      <!--            <div class="carousel-caption d-none d-md-block">-->
+      <!--              &lt;!&ndash;              <h5>Second slide label</h5>&ndash;&gt;-->
+      <!--              &lt;!&ndash;              <p>Some representative placeholder content for the second slide.</p>&ndash;&gt;-->
+      <!--            </div>-->
+      <!--          </div>-->
+      <!--          <div class="carousel-item">-->
+      <!--            <img src="@/assets/istockphoto-1430133287-1024x1024.jpg" class="d-block w-100 imgs" alt="...">-->
+      <!--            <div class="carousel-caption d-none d-md-block">-->
+      <!--              &lt;!&ndash;              <h5>Third slide label</h5>&ndash;&gt;-->
+      <!--              &lt;!&ndash;              <p>Some representative placeholder content for the third slide.</p>&ndash;&gt;-->
+      <!--            </div>-->
+      <!--          </div>-->
+      <!--        </div>-->
+      <!--        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"-->
+      <!--                data-bs-slide="prev">-->
+      <!--          <span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
+      <!--          <span class="visually-hidden">Previous</span>-->
+      <!--        </button>-->
+      <!--        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"-->
+      <!--                data-bs-slide="next">-->
+      <!--          <span class="carousel-control-next-icon" aria-hidden="true"></span>-->
+      <!--          <span class="visually-hidden">Next</span>-->
+      <!--        </button>-->
+      <!--      </div>-->
     </div>
     <div>
       <div>
@@ -191,6 +198,40 @@ export default {
 <style scoped>
 .imgs {
   height: 600px;
+}
+
+.card-box {
+  background-color: #FDC800;
+  width: 180px;
+  height: 180px;
+  text-align: center;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.dot {
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.spot1 {
+  position: relative;
+  left: -40px;
+  top: 20px;
+}
+
+.spot2 {
+  position: relative;
+  left: 40px;
+  top: 20px;
+}
+
+.dayss {
+  margin-bottom: 0px;
+  margin-top: 70px;
 }
 
 .carousel-control-prev-icon {
