@@ -4,7 +4,7 @@
       <strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, officia</strong>
     </p>
     <hr>
-    <div class="d-flex justify-content-between py-4">
+    <div class="d-flex justify-content-between">
       <div>
         <i class="fa-solid fa-calendar"></i>
         <span><time class="times">{{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
@@ -26,15 +26,11 @@
             omnis perferendis perspiciatis rem repellat repellendus sapiente sed
             similique suscipit tenetur vel voluptatem voluptatum. Consectetur
             debitis deleniti dicta dolorem eveniet facilis hic impedit ipsam iure
-            laborum molestias nihil non, officia pariatur provident repellat
-            repellendus temporibus ullam veritatis voluptate. Ab consequuntur
-            deserunt enim eum explicabo facilis natus, praesentium qui quisquam
           </p>
           <ul class="list-unstyled">
             <li><span class="text-dark fw-bold">Manzil:</span> 100066, Toshkent shahri, Islom Karimov ko‘chasi, 49-uy.
             </li>
             <li><span class="text-dark fw-bold">Telefon:</span> +998 98 875 7678</li>
-            <li><span class="text-dark fw-bold">Faks:</span> (8 371) 234-11-48</li>
             <li><span class="text-dark fw-bold">Email:</span> testlar@gmail.com</li>
           </ul>
         </div>
