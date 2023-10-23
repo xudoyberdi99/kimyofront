@@ -139,7 +139,7 @@ export default {
 .btn-floating-top {
     background-color: transparent;
     border-radius: 50%;
-    margin-left: 1260px;
+    margin-left: 1100px;
     margin-bottom: 0;
 }
 </style>
