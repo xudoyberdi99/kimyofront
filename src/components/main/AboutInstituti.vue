@@ -5,9 +5,9 @@
         <div class="col-md-5">
           <h1 class="fw-bold">Bizning institutimizga xush kelibsiz</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A culpa id
-            neque officiis perspiciatis, quasi suscipit tempora tenetur. Autem
-            dicta incidunt sapiente similique voluptate. Cupiditate deleniti
+            Toshkent kimyo-texnologiya instituti Yangiyer filiali Vazirlar Mahkamasining 2019-yil
+            9-iyuldagi 573-sonli qarori bilan tashkil etilgan. Filial Toshkent-Zomin qulay transport
+            yo‘nalishidagi sanoatlashgan Yangiyer shahri markazining aholi yashash qismida joylashgan
           </p>
 
           <button

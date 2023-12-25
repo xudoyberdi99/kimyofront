@@ -1,7 +1,7 @@
 <template>
   <div>
     <p class="text-center text-dark pb-3 fs-3 p-3">
-      <strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, officia</strong>
+      <strong>TKTI Yangiyer filialida “TECHNO WAYS” texnologik rivojlanish marafoniga start</strong>
     </p>
     <hr>
     <div class="d-flex justify-content-between py-4">
@@ -15,32 +15,17 @@
       </div>
 
     </div>
-    <img class="w-100" src="@/assets/istockphoto-1391054420-612x612.jpg" alt="adead"/>
+    <img class="w-100" src="https://tktiyf.uz/wp-content/uploads/2023/12/IMG_0389-2048x1365.jpg" alt="adead"/>
     <div class="single-content pt-5">
       <p class="lh-base">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus
-        aliquam architecto aut blanditiis consequuntur distinctio earum, eius
-        enim eos error et excepturi expedita facilis hic id illo itaque
-        laboriosam laborum libero magni minima neque non obcaecati officiis
-        omnis perferendis perspiciatis rem repellat repellendus sapiente sed
-        similique suscipit tenetur vel voluptatem voluptatum. Consectetur
-        debitis deleniti dicta dolorem eveniet facilis hic impedit ipsam iure
-        laborum molestias nihil non, officia pariatur provident repellat
-        repellendus temporibus ullam veritatis voluptate. Ab consequuntur
-        deserunt enim eum explicabo facilis natus, praesentium qui quisquam
-        velit! Ad autem beatae consectetur deleniti deserunt ducimus eius enim
-        eveniet exercitationem hic impedit incidunt iste laborum maiores non
-        odit officiis qui quo repellendus reprehenderit repudiandae sed sint
-        sunt ut, voluptas voluptatem voluptatibus voluptatum? A accusamus alias
-        animi consequatur corporis culpa deleniti dignissimos eligendi eos
-        eveniet illo magnam minus mollitia, nobis odio omnis quia repudiandae
-        sequi veritatis voluptate! Ad asperiores deleniti libero maxime natus
-        nulla perferendis quisquam unde, voluptatum! Accusamus cupiditate dicta,
-        ex laudantium natus odit omnis quidem quos rerum sint soluta suscipit
-        veritatis. Debitis doloribus incidunt odit quas velit! Amet aspernatur
-        doloribus dolorum magni molestiae repellendus. Ab, aliquid consectetur
-        corporis esse eveniet excepturi fugit, minima necessitatibus, pariatur
-        provident quae quo sequi sint!
+        Ushbu marafon ilmiy va innovatsion g‘oya va loyihalarni saralab olish, yoshlarni qo‘llab-quvvatlash, talabalarning ilmiy va
+        innovatsion salohiyatini namoyon etish, mazkur sohadagi istiqbolli loyihalarni dastlabki bosqichda aniqlash va ularni har
+        tomonlama qo‘llab-quvvatlash, tijoratlashtirish darajasiga olib chiqish maqsadida tashkil etildi.
+
+        Marafon doirasida ishtirokchilar uchun “Bo‘lajak olim” tanlovi va “Akademik harakatchanlik” dasturi nizomlari,
+        Ilmiy va Startap loyihalarni shakllantirish va moliyalashtirish tartiblari to‘g‘risida hamda Ilmiy unvon va ilmiy
+        darajalar to‘g‘risida bo‘yicha treyning o‘tkazilishi hamda filialda tahsil olayotgan talabalar o‘rtasida «Ilmiy-innovatsion
+        va startap loyihalar» tanlovini o‘tkazish rejalashtirilgan.
       </p>
       <div id="carouselExampleCaptions" class="carousel slide my-5" data-bs-ride="carousel">
         <div class="carousel-indicators">

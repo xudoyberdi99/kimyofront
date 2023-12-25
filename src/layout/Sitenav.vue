@@ -11,28 +11,24 @@
       <div class="col-md-9 p-0">
         <div class="d-flex justify-content-end mt-3">
           <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
-            <!--                      <el-menu-item index="1">Bosh sahifa</el-menu-item>-->
             <el-submenu index="2">
               <template slot="title">Yangiliklar</template>
               <el-menu-item index="2-1">E’lonlar</el-menu-item>
-              <el-menu-item index="2-2">Tadbirlar</el-menu-item>
-              <el-menu-item index="2-3">Videoroliklar</el-menu-item>
-              <el-menu-item index="2-4">Ijtimoiy tarmoqlardagi sahifalarimiz</el-menu-item>
+              <el-menu-item index="2-2">So'ngi Yangiliklar
+              </el-menu-item>
+              <el-menu-item index="2-3">FotoGaleriya</el-menu-item>
             </el-submenu>
 
             <el-submenu index="3">
               <template slot="title">Umumiy ma’lumotlar</template>
               <el-menu-item index="3-1">Filial haqida</el-menu-item>
               <el-menu-item index="3-2">Filial nizomi</el-menu-item>
-              <el-menu-item index="3-3">Tuzilma</el-menu-item>
               <el-menu-item index="3-4">Me’yoriy hujjatlar</el-menu-item>
               <el-menu-item index="3-5">Rekvizitlar</el-menu-item>
               <el-menu-item index="3-5">Direktor virtual qabulxonasi</el-menu-item>
               <el-menu-item index="3-6">Ochiq ma’lumotlar</el-menu-item>
               <el-menu-item index="3-7">Bo‘sh ish o‘rinlari</el-menu-item>
               <el-menu-item index="3-8">Korrupsiyaga qarshi kurashish</el-menu-item>
-              <el-menu-item index="3-9">Manzilimiz</el-menu-item>
-              <el-menu-item index="3-10">Qayta aloqa</el-menu-item>
             </el-submenu>
 
             <el-submenu index="4">
@@ -58,20 +54,6 @@
                 <el-menu-item index="4-2-14">Marketing va talabalar amaliyoti bo‘limi</el-menu-item>
                 <el-menu-item index="4-2-15">Xodimlar bo‘limi</el-menu-item>
                 <el-menu-item index="4-2-16">Psixolog</el-menu-item>
-                <el-menu-item index="4-2-17">Talabalarni turar joy bilan ta‘minlash ishlarini muvofiqlashtiruvchi
-                  bo‘limi
-                </el-menu-item>
-                <el-menu-item index="4-2-18">Ilmiy tadqiqot, ilmiy-pedagog kadrlar tayyorlash sektori</el-menu-item>
-                <el-menu-item index="4-2-19">Iqtidorli talabalarning ilmiy-tadqiqot faoliyatini tashkil etish sektori
-                </el-menu-item>
-                <el-menu-item index="4-2-20">Ilmiy-innovatsion ishlanmalarni tijoratlashtirish bo‘limi</el-menu-item>
-                <el-menu-item index="4-2-21">Ishlar boshqarmasi</el-menu-item>
-                <el-menu-item index="4-2-22">Texnik foydalanish va xo‘jalik bo‘limi</el-menu-item>
-                <el-menu-item index="4-2-23">O‘qitishning texnik vositalari bo‘limi</el-menu-item>
-                <el-menu-item index="4-2-24">Fuqaro va mehnat muhofazasi bo‘limi</el-menu-item>
-                <el-menu-item index="4-2-25">Bosh auditor</el-menu-item>
-                <el-menu-item index="4-2-26">Yuristkonsult</el-menu-item>
-                <el-menu-item index="4-2-27">Birinchi va ikkinchi bo‘lim</el-menu-item>
               </el-submenu>
               <el-menu-item index="4-3">Filial kengashi</el-menu-item>
               <el-menu-item index="4-4">Vasiylik kengashi</el-menu-item>
@@ -102,10 +84,8 @@
                   hujjatlar
                 </el-menu-item>
                 <el-menu-item index="5-2-2">Ilmiy kengash</el-menu-item>
-                <el-menu-item index="5-2-3">Konferensiya va seminarlar</el-menu-item>
+                <el-menu-item index="5-2-3">Konferensiyalar</el-menu-item>
                 <el-menu-item index="5-2-4">Ilmiy jurnallar</el-menu-item>
-                <el-menu-item index="5-2-5">Dissertatsiyalar himoyasi va avtoreferatlari</el-menu-item>
-                <el-menu-item index="5-2-6">Iqtidorli talabalar va nomdor stipendiatlar</el-menu-item>
               </el-submenu>
               <el-submenu index="5-3">
                 <template slot="title">Moliyaviy faoliyat</template>
@@ -124,8 +104,8 @@
               <el-menu-item index="6-1">Dars jadvali</el-menu-item>
               <el-menu-item index="6-2">Iqtidorli talabalar</el-menu-item>
               <el-menu-item index="6-3">To‘garaklar</el-menu-item>
-              <el-menu-item index="6-4">Talabalik haqida ma’lumotnoma olish</el-menu-item>
               <el-menu-item index="6-4">Elektron kutubxona</el-menu-item>
+              <el-menu-item index="6-4">Bitirgan Faxriylar</el-menu-item>
             </el-submenu>
             <el-submenu index="7">
               <template slot="title">Abituriyentlarga</template>
@@ -134,8 +114,6 @@
               <el-menu-item index="7-3">Qabul kvotalari</el-menu-item>
               <el-menu-item index="7-4">Sirtqi bakalavriat</el-menu-item>
               <el-menu-item index="7-5">Magistratura</el-menu-item>
-              <el-menu-item index="7-6">Call markazi</el-menu-item>
-              <el-menu-item index="7-7">Qo‘shma ta‘lim dasturlari</el-menu-item>
             </el-submenu>
           </el-menu>
         </div>

@@ -6,9 +6,9 @@
                     <div class="footer-logo-info">
                         <p class="fw-bold fs-4">Bog'lanish</p>
                         <ul class="list-unstyled">
-                            <li><i class="fas fa-phone mr-2 "></i> Telefon:+998 98 875 7678</li>
+                            <li><i class="fas fa-phone mr-2 "></i> Telefon:+998-95-511-58-56</li>
                             <li><i class="fas fa-fax mr-2 "></i> Faks:(8 371) 234-11-48  </li>
-                            <li><i class="fas fa-envelope mr-2 "></i> Email: testlar@gmail.com</li>
+                            <li><i class="fas fa-envelope mr-2 "></i> Email: tktiyf_info@mail.ru, info@tktiyf.uz</li>
                         </ul>
 
                         <p class="fw-bold fs-4 social-media">Ijtimoiy Tarmoqlar</p>

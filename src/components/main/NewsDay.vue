@@ -6,9 +6,10 @@
           <div class="container">
             <div class="row d-flex align-items-center">
               <div class="col-md-6">
-                <h1 class="fw-bold">Koreya Respublikasining O'zbekistondagi elchisi tashrif buyurdi!</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A culpa id neque officiis perspiciatis,
-                  quasi suscipit tempora tenetur. Autem dicta incidunt sapiente similique voluptate. Cupiditate deleniti
+                <h1 class="fw-bold">Ehtiyojmandlar holidan xabar olind</h1>
+                <p>Xabaringiz bor, filial jamoasi tomonidan yoshlar bilan muloqotlar tashkil etish orqali
+                  mahallalarda uyushmagan yoshlar sonini kamaytirish, ularni bandligini ta’minlash hamda bo‘sh
+                  vaqtlarini mazmunli tashkil etish maqsadida Yangiyer shahridagi Ma’rifat mahallasi bilan hamkorlikda
                 </p>
 
                 <button @click="$router.push('newsday')" style="background-color: #FDC800;
@@ -17,7 +18,7 @@
                 </button>
               </div>
               <div class="col-md-6">
-                <img src="@/assets/istockphoto-1366724877-612x612.jpg" alt="kun rasmi" class="images">
+                <img src="https://tktiyf.uz/wp-content/uploads/2023/12/image_2023-12-22_14-53-43-1200x480.png" alt="kun rasmi" class="images">
               </div>
             </div>
 
@@ -67,6 +68,7 @@
   width: 100%;
   display: block;
   border-radius: 20px;
+  height: 400px;
 }
 
 

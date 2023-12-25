@@ -1,35 +1,30 @@
 <template>
   <div>
     <p class="text-center p-3 pb-3 fs-3">
-      <strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, officia</strong>
+      <strong>Toshkent kimyo-texnologiya instituti Yangiyer filiali haqida umumiy ma‘lumot </strong>
     </p>
     <img class="w-100" src="https://tsue.uz/media/static_gallery/slider_image_R4KUHh5.apng" alt="adead"/>
     <div class="single-content pt-5">
 
       <p class="text">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus
-        aliquam architecto aut blanditiis consequuntur distinctio earum, eius
-        enim eos error et excepturi expedita facilis hic id illo itaque
-        laboriosam laborum libero magni minima neque non obcaecati officiis
-        omnis perferendis perspiciatis rem repellat repellendus sapiente sed
-        similique suscipit tenetur vel voluptatem voluptatum. Consectetur
-        debitis deleniti dicta dolorem eveniet facilis hic impedit ipsam iure
-        laborum molestias nihil non, officia pariatur provident repellat
-        repellendus temporibus ullam veritatis voluptate. Ab consequuntur
-        deserunt enim eum explicabo facilis natus, praesentium qui quisquam
-        velit! Ad autem beatae consectetur deleniti deserunt ducimus eius enim
-        eveniet exercitationem hic impedit incidunt iste laborum maiores non
-        odit officiis qui quo repellendus reprehenderit repudiandae sed sint
-        sunt ut, voluptas voluptatem voluptatibus voluptatum? A accusamus alias
-        animi consequatur corporis culpa deleniti dignissimos eligendi eos
-        eveniet illo magnam minus mollitia, nobis odio omnis quia repudiandae
-        sequi veritatis voluptate! Ad asperiores deleniti libero maxime natus
-        nulla perferendis quisquam unde, voluptatum! Accusamus cupiditate dicta,
-        ex laudantium natus odit omnis quidem quos rerum sint soluta suscipit
-        veritatis. Debitis doloribus incidunt odit quas velit! Amet aspernatur
-        doloribus dolorum magni molestiae repellendus. Ab, aliquid consectetur
-        corporis esse eveniet excepturi fugit, minima necessitatibus, pariatur
-        provident quae quo sequi sint!
+        Toshkent kimyo-texnologiya instituti Yangiyer filiali Vazirlar Mahkamasining 2019-yil
+        9-iyuldagi 573-sonli qarori bilan tashkil etilgan. Filial Toshkent-Zomin qulay transport
+        yo‘nalishidagi sanoatlashgan Yangiyer shahri markazining aholi yashash qismida joylashgan.
+        Hududi 12 gektardan iborat. Dastlabki yili 1 ta fakultet hamda 2 ta kafedra bilan ish boshlagan
+        filial talabalari safini 203 nafar yoshlar tashkil etishgan. Kafedralarni qayta tashkil etish
+        natijasida kafedralar soni hozirgi paytda 4 taga yetkazilgan: “Kimyoviy texnologiyalar”,
+        “Avtomatika va texnologik jarayonlar”, “Oziq-ovqat texnologiyalari”,  “Umumiy fanlar”.
+        Ularda 2650 nafarga yaqin yoshlarning bilim olishlari ta’minlangan bo‘lib, shundan 1400 nafardan ortig‘i ta’limning sirtqi shaklida tahsil olishmoqda.
+        2022/2023 o‘quv yilida Belorussiya davlat texnologiya universiteti bilan hamkorlikda tashkil etilgan “Menejment (sanoat korxonalarida innovatsion loyihalar boshqaruvi)” ta’lim yo‘nalishining sirtqi shakliga 17 nafar yoshlar talabalar safiga qabul qilingan.
+        Filialning mutaxassislarga bo‘lgan ehtiyojini ta’minlash maqsadida 2023/2024 o‘quv yilida 2 ta magistratura mutaxassisliklariga qabul tashkil etilmoqda.
+        Filial professor-o‘qituvchilari soni 123 nafar. Ulardan 36 nafari ilmiy darajali professor-o‘qituvchilar. Shundan, 11 nafari fan doktori, professorlar, 15 nafari fan nomzodi, dotsentlar va 10 nafari fanlardan falsafa doktori (PhD) ilmiy darajasiga ega xodimlar.
+        Filialda o‘quv jarayonini Davlat ta’lim standartlari talablari asosida olib borish maqsadida 8 ta o‘quv-tajriba laboratoriyalari, jumladan,  noorganik kimyo, analitik kimyo, organik kimyo, oziq-ovqat xavfsizligi, fizika, don va don mahsulotlari,
+        avtomatika va texnologik jarayonlar, dasturiy ta’minot xonalari tashkil etilgan.
+        Xalqaro aloqalar:
+
+        So‘nggi yillarda filialning ilmiy salohiyatni 2,3% dan 29,2% ga oshirilishiga erishilgan. Xitoy xalq respublikasi FA, AQShning Pitsburg va Arkanzas universitetlari, Janubiy Koreya kimyoviy texnologiya ITI va ko‘plab OTM lar bilan xalqaro hamkorlik aloqalari mavjud. Turkiya Respublikasi  Dicle universiteti va Diyarbakir qishloq xo‘jaligi instituti bilan aloqalar yo‘lga qo‘yilgan. Talabalar almashinuv dasturlari asosida Germaniya davlati (Bavariya)da talabalarning stajirovkasini tashkil etilgan.  Erzurum Texnik Universiteti va Toshkent kimyo-texnologiya instituti Yangiyer filiali o‘rtasida memorandum imzolangan hamda hamkorlikda xalqaro ilmiy ishlarni olib borish, bakalavr, magistratura va doktoranturada o‘qish imkoniyatlari yaratilgan.
+        Xitoy xalq respublikasi Tiyanjin fan va texnologiya universiteti olimlari bilan hamkorlikda “Orol dengizi sho‘r ko‘li suyuq litiyli manbasidan elaksimon strukturali ionli shpinil yordamida litiyni ekologik toza va samarali qayta ishlash texnologiyasi asoslari” mavzusidagi qiymati 1 millard bo‘lgan loyiha granti yutuldi. Xitoy xalq Respublikasi “Qilu texnologik Universiteti” va “Tianjin fan va texnologiyalar Universiteti” bilan ilmiy mavzulardagi ishlar bajarilmoqda.
+
       </p>
       <div id="carouselExampleCaptions" class="carousel slide my-5" data-bs-ride="carousel">
         <div class="carousel-indicators">

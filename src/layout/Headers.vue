@@ -3,8 +3,8 @@
           <div class="address-style">
               <i class="fa-solid fa-map"></i><span> Amir temur ko'chasi 103-uy</span>
               <i class="fa fa-envelope iconssty" aria-hidden="true"></i>
-              <span> test@gmail.com</span>
-              <i class="el-icon-phone"> (998)939044444</i>
+              <span>tktiyf_info@mail.ru, info@tktiyf.uz</span>
+              <i class="el-icon-phone">+998-95-511-58-56</i>
         </div>
         <div >
            <span class="langu-menu"> <i class="fa fa-language fa-2x lan-icon" aria-hidden="true"></i></span>

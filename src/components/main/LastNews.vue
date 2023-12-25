@@ -15,12 +15,11 @@
         <div class="row mb-5">
           <div class="col-md-6">
             <el-card class="card-item" :body-style="{ padding: '0px' }">
-              <img src="@/assets/priscilla-du-preez-XkKCui44iM0-unsplash.jpg" class="image">
+              <img src="https://tktiyf.uz/wp-content/uploads/2023/11/photo_2023-07-26_10-27-42-1200x480.jpg" class="image">
               <div style="padding: 14px;">
-                <button @click="$router.push('news-detail/1')" class="buttons"><p class="fw-bold">siz doim
-                  etiborimizdasiz
-                  aziz bolajonlar</p></button>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, dolorum!</p>
+                <button @click="$router.push('news-detail/1')" class="buttons"><p class="fw-bold butlines">Qonunchilikdagi so‘nggi yangiliklar</p></button>
+                <p class="lines">Respublika ijro etuvchi hokimiyat organlarining yaxlit tizimi shakllantirilishi munosabati
+                  bilan O’zbekiston Respublikasining ayrim qonun hujjatlariga o’zgartirishlar kiritish to’g’risida</p>
                 <div class="bottom clearfix">
                   <button @click="$router.push('news-detail/1')" class="buttons">To'liq o'qish <span class="time"><i
                       class="fa fa-arrow-right fa-sm"
@@ -39,13 +38,14 @@
           </div>
           <div class="col-md-6">
             <el-card class="card-item" :body-style="{ padding: '0px' }">
-              <img src="@/assets/istockphoto-1430133287-1024x1024.jpg"
+              <img src="https://tktiyf.uz/wp-content/uploads/2023/12/IMG_0394-1200x480.jpg"
                    class="image">
               <div style="padding: 14px;">
-                <button @click="$router.push('news-detail/1')" class="buttons"><p class="fw-bold">siz doim
-                  etiborimizdasiz
-                  aziz bolajonlar</p></button>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, dolorum!</p>
+                  <button @click="$router.push('news-detail/1')" class="buttons"><p class="fw-bold butlines">TKTI Yangiyer filialida “TECHNO WAYS” texnologik rivojlanish marafoniga start</p></button>
+
+                <p class="lines">Ushbu marafon ilmiy va innovatsion g‘oya va loyihalarni saralab olish, yoshlarni qo‘llab-quvvatlash, talabalarning ilmiy va innovatsion salohiyatini namoyon etish, mazkur sohadagi istiqbolli loyihalarni dastlabki bosqichda
+                  aniqlash va ularni har tomonlama qo‘llab-quvvatlash, tijoratlashtirish
+                  darajasiga olib chiqish maqsadida tashkil etildi.</p>
                 <div class="bottom clearfix">
                   <button @click="$router.push('news-detail/1')" class="buttons">To'liq o'qish <span class="time"><i
                       class="fa fa-arrow-right fa-sm"
@@ -64,12 +64,10 @@
           </div>
           <div class="col-md-6">
             <el-card class="card-item" :body-style="{ padding: '0px' }">
-              <img src="@/assets/priscilla-du-preez-XkKCui44iM0-unsplash.jpg" class="image">
+              <img src="https://tktiyf.uz/wp-content/uploads/2023/12/DSC09980-1200x480.jpg" class="image">
               <div style="padding: 14px;">
-                <button @click="$router.push('news-detail/1')" class="buttons"><p class="fw-bold">siz doim
-                  etiborimizdasiz
-                  aziz bolajonlar</p></button>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, dolorum!</p>
+                <button @click="$router.push('news-detail/1')" class="buttons"><p class="fw-bold butlines">TKTI Yangiyer filialida sayyor sud majlisi bo’lib o’tdi</p></button>
+                <p class="lines">2023-yil 15-dekabr kuni TKTI Yangiyer filialida Yangiyer shahar sud raisi Sh.Eshimov raisligida sayyor sud majlisi boʻlib oʻtdi.</p>
                 <div class="bottom clearfix">
                   <button @click="$router.push('news-detail/1')" class="buttons">To'liq o'qish <span class="time"><i
                       class="fa fa-arrow-right fa-sm"
@@ -88,13 +86,11 @@
           </div>
           <div class="col-md-6">
             <el-card class="card-item" :body-style="{ padding: '0px' }">
-              <img src="@/assets/istockphoto-1430133287-1024x1024.jpg"
+              <img src="https://tktiyf.uz/wp-content/uploads/2023/12/DSC00858-1200x480.jpg"
                    class="image">
               <div style="padding: 14px;">
-                <button @click="$router.push('news-detail/1')" class="buttons"><p class="fw-bold">siz doim
-                  etiborimizdasiz
-                  aziz bolajonlar</p></button>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, dolorum!</p>
+                <button @click="$router.push('news-detail/1')" class="buttons"><p class="fw-bold butlines">TKTI Yangiyer filialida “Xalqaro inson huquqlari” kuni munosabati bilan davra suhbati</p></button>
+                <p class="lines">“10-dekabr – Xalqaro inson huquqlari” kuni munosabati bilan bugun Toshkent kimyo-texnologiya instituti Yangiyer filiali talabalari bilan davra suhbati tashkil etildi. Tadbirda</p>
                 <div class="bottom clearfix">
                   <button @click="$router.push('news-detail/1')" class="buttons">To'liq o'qish <span class="time"><i
                       class="fa fa-arrow-right fa-sm"
@@ -129,6 +125,13 @@ export default {
 }
 </script>
 <style scoped>
+.lines {
+  -webkit-line-clamp: 2!important;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis!important;
+}
 .time {
   font-size: 16px;
   color: black;
@@ -153,6 +156,13 @@ export default {
   margin-right: auto;
   background-color: transparent;
   font-weight: bold;
+}
+.butlines {
+  -webkit-line-clamp: 1!important;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis!important;
 }
 
 .buttons:hover {
