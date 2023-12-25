@@ -1,16 +1,16 @@
 <template>
   <div class="container menu">
     <hr>
-    <div class="row">
-      <div class="col-md-3 d-flex align-items-center p-0">
+    <div class="row menu-main__wrapper">
+      <div class="col-md-3 d-flex align-items-center p-0 logos">
         <a class="navbar-brand p-0" href="/">
           <img src="@/assets/logo-kimyo-tex.png" alt="" width="100" height="90">
         </a>
         <span class="fw-bold text-uppercase mr-auto"> Toshkent kimyo-texnalogiyalari instituti yangiyer filiali</span>
       </div>
-      <div class="col-md-9 p-0">
+      <div class="col-md-9 p-0 menus">
         <div class="d-flex justify-content-end mt-3">
-          <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
+          <el-menu  :default-active="activeIndex" class="el-menu-demo menuheader" mode="horizontal" @select="handleSelect">
             <el-submenu index="2">
               <template slot="title">Yangiliklar</template>
               <el-menu-item index="2-1">E’lonlar</el-menu-item>
@@ -19,7 +19,7 @@
               <el-menu-item index="2-3">FotoGaleriya</el-menu-item>
             </el-submenu>
 
-            <el-submenu index="3">
+            <el-submenu  index="3">
               <template slot="title">Umumiy ma’lumotlar</template>
               <el-menu-item index="3-1">Filial haqida</el-menu-item>
               <el-menu-item index="3-2">Filial nizomi</el-menu-item>
@@ -139,40 +139,47 @@ export default {
 </script>
 
 <style scoped>
-.menu {
-  height: 130px;
+
+
+@media only screen and (max-width:1200px){
+  .logos {
+    width: 300px;
+  }
+  .menuheader{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .menu{
+    margin-bottom: 50px;
+  }
+  .menus {
+    max-width: 60%;
+  }
+  .menu-main__wrapper{
+    display: flex;
+   align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+
+}
+@media only screen and (max-width:790px){
+  .logos{
+    width: 100%;
+  }
+
+.menu-main__wrapper{
+  flex-direction: column;
+}
+  .menus {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width:576px){
+.menu , .logos{
+  width: 90%;
 }
 
-.item {
-  font-size: 12px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.nav-link {
-  color: black;
-}
-
-.nav-link:hover {
-  color: green;
-
-}
-
-.sticky-menu {
-  display: none;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  z-index: 11;
-  animation: 300ms ease-in-out 0s 1 normal none running fadeInDown;
-  background: rgb(255, 255, 255);
-  height: 120px;
-  padding-top: 18px;
-  box-shadow: rgb(34 34 34) 0px 0px 20px -10px;
-}
-
-.sticky {
-  display: block;
 }
 </style>

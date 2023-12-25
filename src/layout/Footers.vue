@@ -86,12 +86,14 @@
                     <button type="button" class="btn btn-success mt-4">Xabar Yuborish</button>
                 </div>
             </div>
-          <button class="btn btn-primary btn-lg btn-floating-top"
-                  type="text" @click="backToTop">
-            <i class="fas fa-arrow-up"></i>
-          </button>
-        </div>
 
+
+
+        </div>
+      <button class="btn btn-primary btn-lg btn-floating-top"
+              type="text" @click="backToTop">
+        <i class="fas fa-arrow-up"></i>
+      </button>
     </footer>
 </template>
 
@@ -117,6 +119,7 @@ export default {
      color:#ccc;
      padding: 80px 5px 20px;
      text-align: left!important;
+   position: relative;
  }
  .list-unstyled li {
      padding-top: 20px;
@@ -139,7 +142,8 @@ export default {
 .btn-floating-top {
     background-color: transparent;
     border-radius: 50%;
-    margin-left: 1100px;
-    margin-bottom: 0;
+    position: absolute;
+    bottom: 30px;
+     right: 40px;
 }
 </style>
