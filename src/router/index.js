@@ -12,6 +12,12 @@ import ActiveStudentsView from "@/views/ActiveStudentsView.vue";
 import NewsDetailView from "@/views/NewsDetailView.vue";
 import AnnouncementDetailView from "@/views/AnnouncementDetailView.vue";
 import ConferencesDetailView from "@/views/ConferencesDetailView.vue";
+import BachelorsView from "@/views/BachelorsView.vue";
+import PassingPointsView from "@/views/PassingPointsView.vue";
+import AdmissionQuotasView from "@/views/AdmissionQuotasView.vue";
+import ParttimeUndergraduatesView from "@/views/ParttimeUndergraduatesView.vue";
+import MastersView from "@/views/MastersView.vue";
+import ClassSchedulesView from "@/views/ClassSchedulesView.vue";
 
 Vue.use(VueRouter)
 
@@ -77,6 +83,37 @@ const routes = [
         name: 'activeStudents',
         component: ActiveStudentsView
     },
+    {
+        path: '/bachelors',
+        name: 'bachelors',
+        component: BachelorsView
+    },
+    {
+        path: '/passingpoints',
+        name: 'passingpoints',
+        component: PassingPointsView
+    },
+    {
+        path: '/admissionQuotas',
+        name: 'admissionQuotas',
+        component: AdmissionQuotasView
+    },
+    {
+        path: '/parttimeUndergraduates',
+        name: 'parttimeUndergraduates',
+        component: ParttimeUndergraduatesView
+    },
+    {
+        path: '/masters',
+        name: 'masters',
+        component: MastersView
+    },
+    {
+        path: '/classSchedules',
+        name: 'classSchedules',
+        component: ClassSchedulesView
+    },
+
 
 ]
 

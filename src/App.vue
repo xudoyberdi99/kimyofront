@@ -41,22 +41,4 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
 }
-
-.el-main {
-    background-color: white;
-    color: #333;
-}
-.el-header {
-    background-color: white;
-    color: #333;
-    text-align: center;
-    line-height: 60px;
-}
-.el-footer {
-    background-color: #B3C0D1;
-    color: #333;
-    text-align: center;
-    padding: 0px !important;
-    height: 571px;
-}
 </style>
